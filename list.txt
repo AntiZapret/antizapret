@@ -1,32 +1,155 @@
+#inetnum:        91.224.182.0 - 91.224.183.255
+#descr:          Nezavisimaya telekommunikacionnaya kompaniya Ltd.
+#descr:          NTK Route Obj
 91.224.182.0/23
+#inetnum:        109.207.0.0 - 109.207.15.255
+#descr:          OJSC Rostelecom
+#descr:          Electronic government of the Russian Federation
+#descr:          Electronic-government
 109.207.0.0/20
+#inetnum:        178.237.206.0 - 178.237.206.255
+#descr:          FGUP NTC ATLAS
+#descr:          TELEDISCOUNT
 178.237.206.0/24
+#inetnum:        178.237.240.0 - 178.237.255.255
+#descr:          Federal State Unitary Enterprise of the Order of the Red Banner of Labour "Russian Broad-casting and Notification Network"
+#descr:          Moscow City Radio Broadcasting Network
 178.237.240.0/20
+#inetnum:        193.105.14.0 - 193.105.14.255
+#descr:          Federal State-owned Enterprise Russian Television and Radio Broadcasting Network
+#descr:          route for RTTC-net
 193.105.14.0/24
+#inetnum:        193.27.214.0 - 193.27.215.255
+#descr:          Network Federal agency on education
+#descr:          51, st. Lusinovskaya, Moscow, 115998, Russia
+#descr:          Network Federal agency on education
 193.27.214.0/23
+#inetnum:        193.47.146.0 - 193.47.146.255
+#descr:          Federal state unitary enterprise 'State Research Institute of Aviation Systems'
 193.47.146.0/24
+#inetnum:        194.150.202.0 - 194.150.203.255
+#descr:          Federal State Unitary Enterprise "State
+#descr:          Scientific Network
+#descr:          Federal State Unitary Enterprise
+#descr:          "State Scientific-research Institute
+#descr:          of the Civil Aviation (Scientific Center
+#descr:          for maintenance of the flying fitness of airships)"
+#descr:          SC MFFA (NCPLG VS)
+#descr:          Scientific Network
 194.150.202.0/23
+#inetnum:        194.165.22.0 - 194.165.23.255
+#descr:          Federal Unitary State Enterprise General Radio Freqency Centre
+#descr:          RU-GRFC-NET
 194.165.22.0/23
+#inetnum:        194.190.224.0 - 194.190.255.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 194.190.224.0/19
+#inetnum:        194.190.89.0 - 194.190.89.255
+#descr:          Federal State Unity Enterprise
+#descr:          All-Russian Electrotechnical Institute of V.I. Lenin
+#descr:          Federal State Unity Enterprise
+#descr:          All-Russian Electrotechnical Institute of V.I. Lenin
 194.190.89.0/24
+#inetnum:        194.226.22.0 - 194.226.23.255
+#descr:          State Science Centre VNIIGeosystem
+#descr:          State Science Centre VNIIGeosystem
 194.226.22.0/23
+#inetnum:        194.226.80.0 - 194.226.95.255
+#descr:          RUSSIAN STATE INTERNET NETWORK
+#descr:          Main Division of Informations Resources
+#descr:          for States organs of the Russian Federation
+#descr:          RGIN
 194.226.80.0/20
+#inetnum:        194.226.116.0 - 194.226.119.255
+#descr:          RUSSIAN STATE INTERNET NETWORK
+#descr:          Main Division of Informations Resources
+#descr:          for States organs of the Russian Federation
+#descr:          RSNET
 194.226.116.0/22
+#inetnum:        194.226.127.0 - 194.226.127.255
+#descr:          RUSSIAN STATE INTERNET NETWORK
+#descr:          Main Division of Informations Resources
+#descr:          for States organs of the Russian Federation
+#descr:          RUSSIAN STATE INTERNET NETWORK
 194.226.127.0/24
+#inetnum:        194.226.192.0 - 194.226.223.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 194.226.192.0/19
+#inetnum:        194.85.160.0 - 194.85.175.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 194.85.160.0/20
+#inetnum:        194.85.30.0 - 194.85.30.255
+#descr:          Research Centre for Computer Science at the Russian Foreign Ministry
+#descr:          Research Centre for Computer Science at the Russian Foreign Ministry
 194.85.30.0/24
+#inetnum:        194.85.32.0 - 194.85.47.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 194.85.32.0/20
+#inetnum:        195.149.110.0 - 195.149.110.255
+#descr:          Federal State Unitary Enterprise CenterInform
+#descr:          ATLAS-NW-NET
 195.149.110.0/24
+#inetnum:        195.208.224.0 - 195.208.255.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 195.208.224.0/19
+#inetnum:        195.209.224.0 - 195.209.255.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 195.209.224.0/19
+#inetnum:        80.250.160.0 - 80.250.191.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 80.250.160.0/19
+#inetnum:        82.137.128.0 - 82.137.191.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 82.137.128.0/18
+#inetnum:        82.179.0.0 - 82.179.255.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 82.179.0.0/16
+#inetnum:        85.142.0.0 - 85.143.255.255
+#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 85.142.0.0/15
+#inetnum:        85.142.52.0 - 85.142.55.255
+#descr:          WelL-COM ltd.
+#descr:          194017 Drezdenskaya 8/2, Saint-Petersburg, Russia
+#descr:          RUNNet
+#descr:          Russian Federal University Network
 85.142.52.0/24
+#inetnum:        91.190.236.0 - 91.190.239.255
+#descr:          Novosibirsk department of Atlas ISP
+#descr:          Novosibirsk department of Atlas ISP
 91.190.236.0/22
+#inetnum:        91.227.32.0 - 91.227.32.255
+#descr:          FGUP Goznak
+#descr:          Goznak Network for Public Service
+#descr:          Maintains all Goznak objects.
 91.227.32.0/24
+#inetnum:        91.236.22.0 - 91.236.23.255
+#descr:          State Science Centre VNIIGeosystem
+#descr:          State Science Centre VNIIGeosystem
 91.236.22.0/23
+#inetnum:        94.199.64.0 - 94.199.71.255
+#descr:          OOO "Telecom GKhK"
+#descr:          ATOMLINK-AS
 94.199.64.0/21
+#inetnum:        95.173.128.0 - 95.173.159.255
+#descr:          The Federal Guard Service of the Russian Federation
 95.173.128.0/19
