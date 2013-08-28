@@ -1,33 +1,32 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
-function iptables_block_gosnet_start() {
-	while read net; do
-		iptables -t raw -A PREROUTING -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
-	done < list.txt
-}
-
-function iptables_block_gosnet_stop() {
-	while read net; do
-		iptables -t raw -D PREROUTING -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
-	done < list.txt
-}
+ACT=""
 
 case "$1" in
 	start)
-		iptables_block_gosnet_stop
-		iptables_block_gosnet_start
+		ACT="A"
 		;;
 	stop)
-		iptables_block_gosnet_stop
+		ACT="D"
 		;;
 	restart)
-		iptables_block_gosnet_stop
-		iptables_block_gosnet_start
+		"$0" stop &&
+		"$0" start || (
+			echo "Filed to stop while restarting";
+			exit 1
+		)
 		;;
 	*)
 		echo "Usage: $0 {start|stop|restart}" >&2
 		exit 1
 		;;
+
+
 esac
+
+#TODO: переделать на AWK (?)
+	grep -vE '^$|^#' list.txt | while read net; do
+		iptables -t raw -${ACT} PREROUTING -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
+	done
 
 exit 0
