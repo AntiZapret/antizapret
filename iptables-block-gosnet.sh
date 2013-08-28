@@ -1,18 +1,15 @@
 #!/bin/bash
 
 function iptables_block_gosnet_start() {
-	ipset create GOSNET hash:net
-
 	while read net; do
-		ipset add GOSNET "$net"
+		iptables -t raw -A PREROUTING -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
 	done < list.txt
-
-	iptables -t raw -A PREROUTING -m set --match-set GOSNET src -j DROP
 }
 
 function iptables_block_gosnet_stop() {
-	iptables -t raw -D PREROUTING -m set --match-set GOSNET src -j DROP 2>/dev/null
-	ipset destroy GOSNET 2>/dev/null
+	while read net; do
+		iptables -t raw -D PREROUTING -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
+	done < list.txt
 }
 
 case "$1" in
@@ -34,4 +31,3 @@ case "$1" in
 esac
 
 exit 0
-
