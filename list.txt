@@ -185,3 +185,17 @@
 #descr:          The Federal Guard Service of the Russian Federation
 95.173.128.0/19
 
+#inetnum:        213.24.76.0 - 213.24.77.255
+#descr:          Federal Security Service of Russian Federation
+#descr:          3/6 Lubyansky Proezd Moscow 103045
+#descr:          RTCOMM-RU
+213.24.76.0/23
+
+#inetnum:        92.39.133.160 - 92.39.133.175
+#descr:          The Investigative Committee
+#descr:          at the Prosecutor's Office of
+#descr:          the Russian Federation
+#descr:          Tekhnicheskiy per., 2
+#descr:          Moscow, Russia
+#descr:          WestCall Ltd
+92.39.133.160/28
