@@ -12,7 +12,7 @@ case "$1" in
 	restart)
 		"$0" stop &&
 		"$0" start || (
-			echo "Filed to stop while restarting";
+			echo "Failed to stop while restarting";
 			exit 1
 		)
 		;;
