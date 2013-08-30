@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 LIST='/etc/nginx/conf.d/govblock.conf'
 BLOCKER='/etc/nginx/block_gov'
