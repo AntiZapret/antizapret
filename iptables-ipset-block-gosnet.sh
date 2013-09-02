@@ -5,7 +5,7 @@
 iptables_ipset_block_gosnet_start() {
 	ipset create GOSNET hash:net
 
-	getlist list.txt |
+	getlist |
 	while read net; do
 		ipset add GOSNET "$net"
 	done
