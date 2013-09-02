@@ -1,10 +1,11 @@
 #!/usr/bin/env sh
 
+. ./common.sh
+
 iptables_ipset_block_gosnet_start() {
 	ipset create GOSNET hash:net
 
-#	grep '^[0-9a-zA-Z]' list.txt |
-	grep -vE '^$|^#' list.txt |
+	getlist list.txt |
 	while read net; do
 		ipset add GOSNET "$net"
 	done
