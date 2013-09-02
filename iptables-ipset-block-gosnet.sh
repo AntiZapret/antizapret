@@ -9,7 +9,7 @@ iptables_ipset_block_gosnet_start() {
 		ipset add GOSNET "$net"
 	done
 
-	iptables -t raw -A PREROUTING -m set --match-set GOSNET src -j DROP
+	iptables -t raw -I PREROUTING -m set --match-set GOSNET src -j DROP
 }
 
 iptables_ipset_block_gosnet_stop() {

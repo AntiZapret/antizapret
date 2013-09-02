@@ -4,7 +4,7 @@ ACT=""
 
 case "$1" in
 	start)
-		ACT="A"
+		ACT="I"
 		;;
 	stop)
 		ACT="D"
