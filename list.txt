@@ -199,3 +199,7 @@
 #descr:          Moscow, Russia
 #descr:          WestCall Ltd
 92.39.133.160/28
+
+#inetnum:        62.117.66.160 - 62.117.66.167
+#descr:          Network for FGUP NTC "Informregistr"
+62.117.66.160/29
