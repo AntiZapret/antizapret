@@ -1,10 +1,12 @@
 #!/usr/bin/env sh
 
+. ./common.sh
+
 ACT=""
 
 case "$1" in
 	start)
-		ACT="A"
+		ACT="I"
 		;;
 	stop)
 		ACT="D"
@@ -25,7 +27,7 @@ case "$1" in
 esac
 
 #TODO: переделать на AWK (?)
-	grep -vE '^$|^#' list.txt | while read net; do
+	getlist | while read net; do
 		iptables -t raw -${ACT} PREROUTING -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
 	done
 
