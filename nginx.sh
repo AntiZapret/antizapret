@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+. ./common.sh
+
 LIST='/etc/nginx/conf.d/govblock.conf'
 BLOCKER='/etc/nginx/block_gov'
 REDIRECT_URL='http://pastebin.com/raw.php?i=9pabJfqB'
@@ -11,7 +13,7 @@ mkdir -p $LIST_PARENT
 echo '# WARNING! This file was generated. Do not change!' > $LIST
 echo 'geo $gov_user {' >> $LIST
 echo 'default 0;' >> $LIST
-grep -vE '^$|^#' list.txt | while read net; do
+getlist | while read net; do
     echo "${net} 1;" >> $LIST
 done
 echo '}' >> $LIST
