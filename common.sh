@@ -3,7 +3,7 @@
 getlist() {
 	FNAME="$1"
 
-	grep -vE '^$|^#' "$FNAME"
+	grep -E '^[0-9a-zA-Z]' "$FNAME"
 }
 
 getblacklist() {
