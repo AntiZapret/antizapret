@@ -1,6 +1,10 @@
 # common routines
 
-getlist() {
-	grep -vE '^$|^#' list.txt
+getblacklist() {
+	grep -vE '^$|^#' blacklist.txt
+}
+
+getwhitelist() {
+	grep -vE '^$|^#' whitelist.txt
 }
 

@@ -8,7 +8,7 @@ LIST='.htaccess_tmp'
 
 echo '# WARNING! This file was generated. Do not change!' > $LIST
 echo 'order allow,deny' >> $LIST
-getlist | while read net; do
+getblacklist | while read net; do
     echo "deny from ${net}" >> $LIST
 done
 echo 'allow from all' >> $LIST

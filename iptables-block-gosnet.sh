@@ -27,7 +27,7 @@ case "$1" in
 esac
 
 #TODO: переделать на AWK (?)
-	getlist | while read net; do
+	getblacklist | while read net; do
 		iptables -t raw -${ACT} PREROUTING -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
 	done
 
