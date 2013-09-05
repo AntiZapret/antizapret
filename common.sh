@@ -1,10 +1,16 @@
 # common routines
 
+getlist() {
+	FNAME="$1"
+
+	grep -vE '^$|^#' "$FNAME"
+}
+
 getblacklist() {
-	grep -vE '^$|^#' blacklist.txt
+	getlist blacklist.txt
 }
 
 getwhitelist() {
-	grep -vE '^$|^#' whitelist.txt
+	getlist whitelist.txt
 }
 
