@@ -2,14 +2,21 @@
 
 . ./common.sh
 
-ACT=""
-
 case "$1" in
 	start)
-		ACT="I"
+		iptables -t filter -N BLOCKGOSNET
+		iptables -t filter -A BLOCKGOSNET -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+		getblacklist | while read net; do
+			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
+		done
+		iptables -t filter -I FORWARD -j BLOCKGOSNET
+		iptables -t filter -I INPUT   -j BLOCKGOSNET
 		;;
 	stop)
-		ACT="D"
+		iptables -t filter -D FORWARD -j BLOCKGOSNET
+		iptables -t filter -D INPUT   -j BLOCKGOSNET
+		iptables -t filter -F BLOCKGOSNET
+		iptables -t filter -X BLOCKGOSNET
 		;;
 	restart)
 		"$0" stop &&
@@ -25,10 +32,5 @@ case "$1" in
 
 
 esac
-
-#TODO: переделать на AWK (?)
-	getblacklist | while read net; do
-		iptables -t raw -${ACT} PREROUTING -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
-	done
 
 exit 0
