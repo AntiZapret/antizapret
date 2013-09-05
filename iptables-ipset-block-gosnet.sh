@@ -3,19 +3,35 @@
 . ./common.sh
 
 iptables_ipset_block_gosnet_start() {
-	ipset create GOSNET hash:net
+	ipset create GOSNET          hash:net
+	ipset create GOSNETWHITELIST hash:net
 
-	getlist |
+	getwhitelist |
+	while read net; do
+		ipset add GOSNETWHITELIST "$net"
+	done
+
+	getblacklist |
 	while read net; do
 		ipset add GOSNET "$net"
 	done
 
-	iptables -t raw -I PREROUTING -m set --match-set GOSNET src -j DROP
+	iptables -t filter -N BLOCKGOSNET
+	iptables -t filter -A BLOCKGOSNET -m set --match-set GOSNETWHITELIST src -j RETURN
+	iptables -t filter -A BLOCKGOSNET -m set --match-set GOSNET          src -j DROP
+	iptables -t filter -I INPUT   -j BLOCKGOSNET
+	iptables -t filter -I FORWARD -j BLOCKGOSNET
 }
 
 iptables_ipset_block_gosnet_stop() {
-	iptables -t raw -D PREROUTING -m set --match-set GOSNET src -j DROP 2>/dev/null
-	ipset destroy GOSNET 2>/dev/null
+	(
+		iptables -t filter -D INPUT   -j BLOCKGOSNET
+		iptables -t filter -D FORWARD -j BLOCKGOSNET
+		iptables -t filter -F BLOCKGOSNET
+		iptables -t filter -X BLOCKGOSNET
+		ipset destroy GOSNET
+		ipset destroy GOSNETWHITELIST
+	) 2>/dev/null
 }
 
 case "$1" in
