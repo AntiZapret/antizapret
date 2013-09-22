@@ -50,12 +50,6 @@
 #descr:          RU-GRFC-NET
 194.165.22.0/23
 
-#inetnum:        194.190.224.0 - 194.190.255.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-194.190.224.0/19
-
 #inetnum:        194.190.89.0 - 194.190.89.255
 #descr:          Federal State Unity Enterprise
 #descr:          All-Russian Electrotechnical Institute of V.I. Lenin
@@ -89,75 +83,19 @@
 #descr:          RUSSIAN STATE INTERNET NETWORK
 194.226.127.0/24
 
-#inetnum:        194.226.192.0 - 194.226.223.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-194.226.192.0/19
-
-#inetnum:        194.85.160.0 - 194.85.175.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-194.85.160.0/20
-
 #inetnum:        194.85.30.0 - 194.85.30.255
 #descr:          Research Centre for Computer Science at the Russian Foreign Ministry
 #descr:          Research Centre for Computer Science at the Russian Foreign Ministry
 194.85.30.0/24
-
-#inetnum:        194.85.32.0 - 194.85.47.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-194.85.32.0/20
 
 #inetnum:        195.149.110.0 - 195.149.110.255
 #descr:          Federal State Unitary Enterprise CenterInform
 #descr:          ATLAS-NW-NET
 195.149.110.0/24
 
-#inetnum:        195.208.224.0 - 195.208.255.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-195.208.224.0/19
-
-#inetnum:        195.209.224.0 - 195.209.255.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-195.209.224.0/19
-
-#inetnum:        80.250.160.0 - 80.250.191.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-80.250.160.0/19
-
-#inetnum:        82.137.128.0 - 82.137.191.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-82.137.128.0/18
-
-#inetnum:        82.179.0.0 - 82.179.255.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-82.179.0.0/16
-
-#inetnum:        85.142.0.0 - 85.143.255.255
-#descr:          State Institute of Information Technologies and Telecommunications (SIIT&T "Informika")
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-85.142.0.0/15
-
 #inetnum:        85.142.52.0 - 85.142.55.255
 #descr:          WelL-COM ltd.
 #descr:          194017 Drezdenskaya 8/2, Saint-Petersburg, Russia
-#descr:          RUNNet
-#descr:          Russian Federal University Network
 85.142.52.0/24
 
 #inetnum:        91.190.236.0 - 91.190.239.255
@@ -199,3 +137,7 @@
 #descr:          Moscow, Russia
 #descr:          WestCall Ltd
 92.39.133.160/28
+
+#inetnum:        62.117.66.160 - 62.117.66.167
+#descr:          Network for FGUP NTC "Informregistr"
+62.117.66.160/29
