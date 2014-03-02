@@ -1,17 +1,28 @@
 #!/usr/bin/env sh
 
-. ./common.sh
+LOC="$(dirname ${0})"
+. "${LOC}"/common.sh
 
 iptables_ipset_block_gosnet_start() {
 	ipset create GOSNET          hash:net
 	ipset create GOSNETWHITELIST hash:net
 
-	getwhitelist |
+	getwhitelist_v4 |
 	while read net; do
 		ipset add GOSNETWHITELIST "$net"
 	done
 
-	getblacklist |
+	getblacklist_v4 |
+	while read net; do
+		ipset add GOSNET "$net"
+	done
+
+	getwhitelist_v6 |
+	while read net; do
+		ipset add GOSNETWHITELIST "$net"
+	done
+
+	getblacklist_v6 |
 	while read net; do
 		ipset add GOSNET "$net"
 	done

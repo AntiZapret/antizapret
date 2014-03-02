@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
-. ./common.sh
+LOC="$(dirname ${0})"
+. "${LOC}"/common.sh
 
 LIST='/etc/nginx/conf.d/govblock.conf'
 BLOCKER='/etc/nginx/block_gov'
@@ -13,7 +14,10 @@ mkdir -p $LIST_PARENT
 echo '# WARNING! This file was generated. Do not change!' > $LIST
 echo 'geo $gov_user {' >> $LIST
 echo 'default 0;' >> $LIST
-getblacklist | while read net; do
+getblacklist_v4 | while read net; do
+    echo "${net} 1;" >> $LIST
+done
+getblacklist_v6 | while read net; do
     echo "${net} 1;" >> $LIST
 done
 echo '}' >> $LIST

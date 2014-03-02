@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
-. ./common.sh
+LOC="$(dirname ${0})"
+. "${LOC}"/common.sh
 
 case "$1" in
 	start)
@@ -8,13 +9,23 @@ case "$1" in
 		iptables -t filter -N BLOCKGOSNET
 		iptables -t filter -A BLOCKGOSNET -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 
-		# Whitelist
-		getwhitelist | while read net; do
+		# Whitelist for IPv4
+		getwhitelist_v4 | while read net; do
 			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j RETURN
 		done
 
-		# Blacklist
-		getblacklist | while read net; do
+		# Blacklist for IPv4
+		getblacklist_v4 | while read net; do
+			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
+		done
+
+		# Whitelist for IPv6
+		getwhitelist_v6 | while read net; do
+			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j RETURN
+		done
+
+		# Blacklist for IPv6
+		getblacklist_v6 | while read net; do
 			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
 		done
 
