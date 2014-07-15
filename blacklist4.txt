@@ -190,6 +190,14 @@
 213.24.76.0/23
 
 
+#inetnum: 195.230.66.0 - 195.230.66.255
+#netname: EGSUPD-NET
+#descr: Federal State Institution "United State System
+#descr: of Data Transfering Management"
+#descr: 19, Trubnikovsky per., 123995, Moscow, Russian Federation
+195.230.66.0/24
+
+
 #############  НЕГОСУДАРСТВЕННЫЕ КОМПАНИИ ####################
 # Некоторые хостинговые компании предоставляют безвоздмездно ресурсы для госструктур
 # Я на своих серверах баню такие сети
