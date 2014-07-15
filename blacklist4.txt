@@ -1,8 +1,14 @@
+###############################################################################
+## Бо́льшая часть сетей перечисленных ниже получена через от самих            ##
+## правительственных организаций через стандартные средства построения       ##
+## маршрутизации, поэтому некоторые могут не иметь признаки причастности     ##
+###############################################################################
+
 #inetnum:        62.117.66.160 - 62.117.66.167
 #descr:          Network for FGUP NTC "Informregistr"
 62.117.66.160/29
 
-#ФСНК:  fskn.gov.ru
+#ФСКН:  fskn.gov.ru
 #inetnum:        78.108.192.0 - 78.108.199.255
 #netname:        SPEZSVYAZ
 #descr:          SPEZSVYAZ Internal network
@@ -68,6 +74,9 @@
 #descr:          The Federal Guard Service of the Russian Federation
 95.173.128.0/19
 
+###############################################################################
+## А ещё из этой подсети уже с давних пор ходит краулер Спутника             ##
+###############################################################################
 #inetnum:        109.207.0.0 - 109.207.15.255
 #descr:          OJSC Rostelecom
 #descr:          Electronic government of the Russian Federation
@@ -100,43 +109,10 @@
 #descr:          route for RTTC-net
 193.105.14.0/24
 
-#inetnum:        193.27.214.0 - 193.27.215.255
-#descr:          Network Federal agency on education
-#descr:          51, st. Lusinovskaya, Moscow, 115998, Russia
-#descr:          Network Federal agency on education
-193.27.214.0/23
-
-#inetnum:        193.47.146.0 - 193.47.146.255
-#descr:          Federal state unitary enterprise 'State Research Institute of Aviation Systems'
-193.47.146.0/24
-
-#inetnum:        194.150.202.0 - 194.150.203.255
-#descr:          Federal State Unitary Enterprise "State
-#descr:          Scientific Network
-#descr:          Federal State Unitary Enterprise
-#descr:          "State Scientific-research Institute
-#descr:          of the Civil Aviation (Scientific Center
-#descr:          for maintenance of the flying fitness of airships)"
-#descr:          SC MFFA (NCPLG VS)
-#descr:          Scientific Network
-194.150.202.0/23
-
 #inetnum:        194.165.22.0 - 194.165.23.255
 #descr:          Federal Unitary State Enterprise General Radio Freqency Centre
 #descr:          RU-GRFC-NET
 194.165.22.0/23
-
-#inetnum:        194.190.89.0 - 194.190.89.255
-#descr:          Federal State Unity Enterprise
-#descr:          All-Russian Electrotechnical Institute of V.I. Lenin
-#descr:          Federal State Unity Enterprise
-#descr:          All-Russian Electrotechnical Institute of V.I. Lenin
-194.190.89.0/24
-
-#inetnum:        194.226.22.0 - 194.226.23.255
-#descr:          State Science Centre VNIIGeosystem
-#descr:          State Science Centre VNIIGeosystem
-194.226.22.0/23
 
 #inetnum:        194.226.80.0 - 194.226.95.255
 #descr:          RUSSIAN STATE INTERNET NETWORK
@@ -169,8 +145,7 @@
 #descr:          ATLAS-NW-NET
 195.149.110.0/24
 
-
-#мосспрокуратура: mosproc.ru
+#моспрокуратура: mosproc.ru
 #inetnum:        212.42.32.0 - 212.42.63.255
 #descr:          RopNet
 #org:            ORG-RA24-RIPE
@@ -182,22 +157,93 @@
 212.42.32.0/19
 # Раз есть RopNet-Block1, должны быть и ropnet-blockN
 
-
 #inetnum:        213.24.76.0 - 213.24.77.255
 #descr:          Federal Security Service of Russian Federation
 #descr:          3/6 Lubyansky Proezd Moscow 103045
 #descr:          RTCOMM-RU
 213.24.76.0/23
 
+###############################################################################
+###################       Научные центры/институты       ######################
+## есть мнение, что их нужно исключить. Welcome в issue ;) ####################
+###############################################################################
 
-#############  НЕГОСУДАРСТВЕННЫЕ КОМПАНИИ ####################
-# Некоторые хостинговые компании предоставляют безвоздмездно ресурсы для госструктур
-# Я на своих серверах баню такие сети
-# Ибо сегодня они предоставляют места под сайты,
-# Завтра - прокси и сервера для поисковиков.
-# Сотрудничаешь с госструктурами - варись в их фильтрованном интранете.
-# Каждый решает сам для себя.
+#inetnum:        193.27.214.0 - 193.27.215.255
+#descr:          Network Federal agency on education
+#descr:          51, st. Lusinovskaya, Moscow, 115998, Russia
+#descr:          Network Federal agency on education
+193.27.214.0/23
 
+#inetnum:        193.47.146.0 - 193.47.146.255
+#descr:          Federal state unitary enterprise 'State Research Institute of Aviation Systems'
+193.47.146.0/24
+
+#inetnum:        194.150.202.0 - 194.150.203.255
+#descr:          Federal State Unitary Enterprise "State
+#descr:          Scientific Network
+#descr:          Federal State Unitary Enterprise
+#descr:          "State Scientific-research Institute
+#descr:          of the Civil Aviation (Scientific Center
+#descr:          for maintenance of the flying fitness of airships)"
+#descr:          SC MFFA (NCPLG VS)
+#descr:          Scientific Network
+194.150.202.0/23
+
+#inetnum:        194.190.89.0 - 194.190.89.255
+#descr:          Federal State Unity Enterprise
+#descr:          All-Russian Electrotechnical Institute of V.I. Lenin
+#descr:          Federal State Unity Enterprise
+#descr:          All-Russian Electrotechnical Institute of V.I. Lenin
+194.190.89.0/24
+
+#inetnum:        194.226.22.0 - 194.226.23.255
+#descr:          State Science Centre VNIIGeosystem
+#descr:          State Science Centre VNIIGeosystem
+194.226.22.0/23
+
+###############################################################################
+
+
+
+
+
+
+##################################  !!!!!!  ###################################
+###############################################################################
+## Все подсети, перечисленные ниже этой заметки не являются "принадлежащими" ##
+## гос. структурам в строгом смысле. И, вдобавок, получены "контибьюторами"  ##
+## Поэтому при любых сомнениях - заводите issue и/или добавляйте их себе в   ##
+##                           whitelist4_local.txt                            ##
+###############################################################################
+##################################  !!!!!!  ###################################
+
+###############################################################################
+## Смольный, районные администрации ленобласти, разные комитеты              ##
+## (!!) требует дополнительной проверки. При любых сомнениях - заводите issue #
+###############################################################################
+
+#inetnum:        212.119.175.0 - 212.119.175.255
+#netname:        RU-METROCOM-2011011701
+#descr:          CJSC "Metrocom"
+#descr:          29 Odoevskogo Str.
+#descr:          199155, St.Petersburg,Russia
+212.119.175.0/24
+# возможно, в 212.119.160.0/19 есть ещё "аффилированные" куски.
+
+#inetnum:        46.47.211.0 - 46.47.211.255
+#netname:        ATS-SMOLNOGO-LAN
+#descr:          ATS Smolnogo
+#descr:          St.Petersburg
+#descr:          JSC PeterStar
+46.47.211.0/24
+# Возможно, в 46.47.192.0/18 есть ещё "аффилированные" куски.
+
+
+
+#######################  НЕГОСУДАРСТВЕННЫЕ КОМПАНИИ ###########################
+## Некоторые хостинговые компании безвозмездно предоставляют ресурсы для     ##
+## госструктур.                                                              ##
+###############################################################################
 
 #Гиббд gibdd.ru, региональные Роспотребнадзора 77.rospotrebnadzor.ru:
 #inetnum:        89.108.121.0 - 89.108.121.255
@@ -210,16 +256,6 @@
 #source:         RIPE # Filtered
 89.108.112.0/20
 
-#фелерация защиты правообладателей fzpr.ru
-#inetnum:        89.111.176.0 - 89.111.179.255
-#netname:        CCC-HC
-#descr:          Garant-Park-Telecom, Ltd.
-#country:        RU
-#route:          89.111.176.0/20
-#descr:          JSC Centrohost route
-#origin:         AS41126
-89.111.176.0/20
-
 #подразделение К: kguvd.ru
 #inetnum:        91.219.192.0 - 91.219.195.255
 #netname:        BEST-HOSTER-NET
@@ -229,6 +265,43 @@
 #descr:          Best-Hoster Group Co. Ltd.
 #origin:         AS49693
 91.219.192.0/22
+
+#Роспотребнадзор rospotrebnadzor.ru
+#inetnum:        195.128.157.0 - 195.128.157.255
+#netname:        ONLANTA-NET
+#descr:          Onlanta Ltd.
+#country:        RU
+#route:          195.128.157.0/24
+#descr:          ONLANTA-NET
+#origin:         AS56631
+195.128.157.0/24
+
+#МВД: mvd.ru
+#route:          213.232.192.0/18
+#descr:          RusComNet Ltd.
+#origin:         AS21414
+#member-of:      RS-RCN
+#mnt-by:         RCN-NOC
+213.232.192.0/18
+
+
+
+
+##############################   Копирасты   ##################################
+## Вообще, нижний раздел имеет смысл вынести в отдельный репозиторий с       ##
+## подсетями копирастов и прочих врагов рода человеческого, но если никто    ##
+## не возражает - пусть пока "поживут" тут. Если что - issues к вашим услугам #
+###############################################################################
+
+#федерация защиты правообладателей fzpr.ru
+#inetnum:        89.111.176.0 - 89.111.179.255
+#netname:        CCC-HC
+#descr:          Garant-Park-Telecom, Ltd.
+#country:        RU
+#route:          89.111.176.0/20
+#descr:          JSC Centrohost route
+#origin:         AS41126
+89.111.176.0/20
 
 #российский союз правообладателей rp-union.ru:
 #NetRange:       184.82.0.0 - 184.82.255.255
@@ -267,22 +340,4 @@
 #mnt-routes:     RUNIC-MNT
 #mnt-by:         RUNIC-MNT
 194.85.88.0/23
-
-#Роспотребнадзор rospotrebnadzor.ru
-#inetnum:        195.128.157.0 - 195.128.157.255
-#netname:        ONLANTA-NET
-#descr:          Onlanta Ltd.
-#country:        RU
-#route:          195.128.157.0/24
-#descr:          ONLANTA-NET
-#origin:         AS56631
-195.128.157.0/24
-
-#МВД: mvd.ru
-#route:          213.232.192.0/18
-#descr:          RusComNet Ltd.
-#origin:         AS21414
-#member-of:      RS-RCN
-#mnt-by:         RCN-NOC
-213.232.192.0/18
 

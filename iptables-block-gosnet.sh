@@ -3,50 +3,57 @@
 LOC="$(dirname ${0})"
 . "${LOC}"/common.sh
 
-case "$1" in
-	start)
+
+start() {
+
 		# Creating a chain
-		iptables -t filter -N BLOCKGOSNET
-		iptables -t filter -A BLOCKGOSNET -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+		iptables -t raw -N BLOCKGOSNET
+		iptables -t raw -A BLOCKGOSNET -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 
 		# Whitelist for IPv4
 		getwhitelist_v4 | while read net; do
-			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j RETURN
+			iptables -t raw -A BLOCKGOSNET -s "${net}" -m comment --comment "Госорганы (WL)" -j RETURN
 		done
 
 		# Blacklist for IPv4
 		getblacklist_v4 | while read net; do
-			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
+			iptables -t raw -A BLOCKGOSNET -s "${net}" -m comment --comment "Госорганы (BL)" -j DROP
 		done
 
 		# Whitelist for IPv6
 		getwhitelist_v6 | while read net; do
-			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j RETURN
+			ip6tables -t raw -A BLOCKGOSNET -s "${net}" -m comment --comment "Госорганы (WL)" -j RETURN
 		done
 
 		# Blacklist for IPv6
 		getblacklist_v6 | while read net; do
-			iptables -t filter -A BLOCKGOSNET -s "$net" -m comment --comment "Блокировка госорганов" -j DROP
+			ip6tables -t raw -A BLOCKGOSNET -s "${net}" -m comment --comment "Госорганы (BL)" -j DROP
 		done
 
 		# Enabling
-		iptables -t filter -I FORWARD -j BLOCKGOSNET
-		iptables -t filter -I INPUT   -j BLOCKGOSNET
-		;;
-	stop)
+		iptables -t raw -I PREROUTING -j BLOCKGOSNET
+}
+
+stop() {
 		# Disabling
-		iptables -t filter -D FORWARD -j BLOCKGOSNET
-		iptables -t filter -D INPUT   -j BLOCKGOSNET
+		iptables -t raw -D PREROUTING -j BLOCKGOSNET
 
 		# Cleaning the chain
-		iptables -t filter -F BLOCKGOSNET
+		iptables -t raw -F BLOCKGOSNET
 
 		# Removing the chain
-		iptables -t filter -X BLOCKGOSNET
+		iptables -t raw -X BLOCKGOSNET
+}
+case "${1}" in
+	start)
+			start;
+		;;
+	stop)
+			stop;
 		;;
 	restart)
-		"$0" stop &&
-		"$0" start || (
+		stop &&
+		start || (
 			echo "Failed to stop while restarting";
 			exit 1
 		)
@@ -55,8 +62,6 @@ case "$1" in
 		echo "Usage: $0 {start|stop|restart}" >&2
 		exit 1
 		;;
-
-
 esac
 
 exit 0
