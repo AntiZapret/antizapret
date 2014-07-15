@@ -190,6 +190,43 @@
 213.24.76.0/23
 
 
+############# Кремлёвские СМИ ####################
+
+
+#inetnum: 80.247.32.0 - 80.247.47.255
+#org: ORG-ASTa1-RIPE
+#netname: RU-VGTRK-20020919
+#descr: Federal State Unitary Enterprise Russian State Television and Radio Broadcasting Company
+80.247.32.0/20
+
+
+#inetnum: 195.230.68.0 - 195.230.68.255
+#netname: ORTNET
+#descr: Russian Public Television
+#descr: Moscow 127000, Russia
+#descr: 19, Koroleva St.
+195.230.68.0/24
+
+
+#inetnum: 195.3.240.0 - 195.3.243.255
+#netname: NTV-net
+#descr: OJSC Televison Company NTV
+195.3.240.0/22
+
+
+#inetnum: 195.93.246.0 - 195.93.247.255
+#netname: RIAN-NETWORK-MH
+#descr: The Federal State Unitary Enterprise Russian Agency of the International Information RIA Novosti
+195.93.246.0/23
+
+
+#inetnum: 109.73.4.224 - 109.73.4.255
+#netname: NewsMediaRus
+#descr: OOO News Media-Rus
+#descr: www.life.ru
+109.73.4.224/27
+
+
 #############  НЕГОСУДАРСТВЕННЫЕ КОМПАНИИ ####################
 # Некоторые хостинговые компании предоставляют безвоздмездно ресурсы для госструктур
 # Я на своих серверах баню такие сети
