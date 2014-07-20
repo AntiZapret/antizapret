@@ -5,27 +5,32 @@
 ###############################################################################
 
 #name: Свердловская областная дума
+#enname: Duma of Sverdlovsk Oblast
 #descr:          Oblastnaya Duma Zakonodatel"nogo Sobraniya Sverdlovskoj oblasti
 #descr:          Ekaterinburg, Russia
 212.23.85.128/25
 212.23.73.4/30
 
 #name: Объединенная редакция МВД
+#enname: United editorial of MVD
 #descr:          Network for Objedinennaya redakciya MVD Rossii
 213.171.40.80/29
 
 #name: Екатеринбургская дума
+#enname: Ekaterinburg duma
 #descr:          Gorodskaya Duma
 #descr:          Ekaterinburg, Russia
 195.58.0.212/30
 195.58.30.64/26
 
 #name: Вологодский ФСКН
+#enname: FSKN of Vologda
 #netname:        FSKN-Vologda
 #descr:          Ticket 10-09407-2, SZF
 95.167.76.160/27
 
 #name: Министерство связи
+#enname: Ministry of communication
 #descr:          Executive office of Ministry of press,
 #descr:          broadcasting and mass communication
 213.243.88.0/24
@@ -33,27 +38,32 @@
 195.230.86.64/26
 
 #name: Кемеровское казначейство
+#enname: Treasury of Kemerovo
 #netname:        UFK-KMR-NET
 #descr:          Territorial branch of Federal Treasury in Kemerovo region
 91.198.38.0/24
 
 #name: ВНИИгеосистем
+#enname: VNIIGeosystem
 #descr:          State Science Centre VNIIGeosystem
 91.236.22.0/23
 194.226.22.0/23
 
 #name: Алтайская ФНС
+#enname: Altai tax service
 #descr:          Ministry of Taxation of Altai territory
 #descr:          Upravlenie Ministerstva RF po nalogam i sboram po altaiskomu kraiu
 217.107.45.0/29
 
 #name: Волгоградская ФНС
+#enname: Volgograd tax service
 #descr:          Ministry of Taxation, subsidiary of Volgagrad region
 #descr:          Lenina st., 90
 #descr:          Volgagrad, Russia
 217.106.203.72/29
 
 #name: Башкирская ФНС
+#enname: Bashkortostan tax service
 #descr:          Ministry of Taxation, subsidiary of Bashkortostan region
 #descr:          1b, Vladivostokskaya st.,
 #descr:          Ufa, Republic Bashkortostan
@@ -61,17 +71,20 @@
 217.107.5.0/29
 
 #name: Южно-Сахалинский ФСКН
+#enname: FSKN of Yuzhno-Sakhalinsk
 #descr:          693000 Russia Yujno-Sahalynsk, ZC-7536978
 #descr:          Sahalinskaya, 4A, KL-3495808
 #descr:          FSKN, http://www.fskn.gov.ru
 195.239.251.48/29
 
 #name: Госзнак
+#enname: Goznak
 #netname:        GOZNAK-AS
 #descr:          FGUP Goznak
 91.227.32.0/24
 
 #name: Чувашская ФНС
+#enname: Chuvashia tax service
 #netname:        RU-CHUVASHIA-NALOG
 #descr:          The Ministry of Taxation of the Russian Federation in Chuvashia.
 #descr:          Russia, Cheboksary
@@ -79,6 +92,7 @@
 217.106.150.80/29
 
 #name: Московская областная дума
+#enname: Duma of Moscow Oblast
 #netname:        MosOblDuma-NET
 #descr:          MosOblDuma
 #descr:          GLOBUS-ROUTE-19
@@ -86,12 +100,14 @@
 82.198.176.16/29
 
 #name: Черкесская ФНС
+#enname: Cherkessk tax service
 #netname:        UMNS-CHERKESSK
 #descr:          Ministry of Taxation, subsidiary of Cherkessk region
 #descr:          Cherkessk, Krasnoarmeiskaya st., 70
 217.106.203.240/29
 
 #name: RSNet
+#enname: RSNet
 #netname:        RSNET
 #descr:          RUSSIAN STATE INTERNET NETWORK
 #descr:          Main Division of Informations Resources
@@ -101,13 +117,16 @@
 194.226.127.0/24
 
 #name: Министерство образования
+#enname: Ministry of education
 #netname:        SRISI
 #descr:          Network Federal agency on education
 #descr:          51, st. Lusinovskaya, Moscow, 115998, Russia
 #descr:          Network Federal agency on education
 193.27.214.0/23
+82.179.86.32/27
 
 #name: Московская городская дума
+#enname: Moscow city duma
 #descr:          Moscow City Government and Moscow City Duma network
 212.11.130.0/23
 212.11.128.0/23
@@ -116,6 +135,7 @@
 77.108.103.144/29
 
 #name: Тамбовская дума
+#name: Tambov duma
 #netname:        TAMBOVOBLDUMA-NET
 #descr:          (VR000128) tambov-duma,
 #descr:          Tambov, Russia
@@ -124,6 +144,7 @@
 62.33.63.144/28
 
 #name: Саратовская ФНС
+#enname: Saratov tax service
 #netname:        UMNS-SARATOV
 #descr:          Ministry of Taxation, subsidiary of Saratov region
 #descr:          24, Rabochaya st.,
@@ -132,6 +153,7 @@
 217.107.5.24/29
 
 #name: МЧС по Саратовской области
+#enname: EMERCOM of Saratov
 #netname:        MCHS-Saratov
 #descr:          MCHS Rossii po Saratovskoj oblasti
 #descr:          Sobornaya sq.,7. Saratov, Russia
@@ -139,6 +161,7 @@
 217.23.88.248/29
 
 #name: Министерство юстиции
+#enname: Minintry of Justice
 #netname:        SCLI-NET-MinJust
 #descr:          JSC Rostelecom Client (MinJust R&D center)
 #descr:          ROSTELECOM NETS
@@ -146,6 +169,7 @@
 87.226.156.64/26
 
 #name: Калининградская областная дума
+#enname: Duma of Kaliningrad Oblast
 #netname:        KALININGRADSKAYA-OBLASTNAYA-DUMA-LAN
 #descr:          Kirova ul. d.17
 #descr:          Kaliningrad
@@ -154,18 +178,21 @@
 93.153.144.60/30
 
 #name: Рублево-Успенский ЛОК
+#enname: Rublevo-Uspenskiy Therapeutic Complex
 #netname:        RULOK-net
 #descr:          FGUP "Rublevo-Uspenskiy LOK"
 #descr:          Route for FGUP "Rublevo-Uspenskiy LOK"
 91.239.228.0/23
 
 #name: Медцентр МЧС
+#enname: Medical center of EMERCOM
 #netname:        MCHS
 #descr:          Medical Center MCHS
 #descr:          SPB-TELEPORT
 217.148.216.156/30
 
 #name: Псковская ФНС
+#enname: Pskov tax service
 #netname:        UMNS-PSKOV
 #descr:          Ministry of Taxation, subsidiary of Pskov region
 #descr:          RTCOMM-RU
@@ -173,6 +200,7 @@
 213.59.91.176/28
 
 #name: Вологодская ФНС
+#enname: Vologda tax service
 #netname:        UMNS-VOLOGDA
 #descr:          Ministry of Taxation, subsidiary of Vologda region
 #descr:          UMNS35
@@ -181,6 +209,7 @@
 213.24.160.0/28
 
 #name: ФНС
+#enname: Federal Tax Service
 #netname:        MNSRU-NET
 #descr:          Ministry of taxation of the Russian Federation
 #descr:          Neglinnaya 23
@@ -190,19 +219,22 @@
 81.176.235.0/27
 
 #name: ФСКН по Амурской области
+#enname: FSKN of Amur oblast
 #netname:        FSKN_po_Amurskoj_oblasti
 #descr:          Ticket 10-21141-1
 #descr:          ROSTELECOM NETS
 95.167.157.156/30
 
 #name: Пермская дума
+#enname: Perm duma
 #netname:        PERMGORDUMA-NET
 #descr:          Perm Duma network, Russia
 #descr:          31, Zakamskaya str., Perm
-#descr:          for Perm department
+#descr:          for Perm departmente
 90.150.176.52/30
 
 #name: Владивостокский МЧС
+#enname: EMERCOM of Vladivostok
 #netname:        POL-MCHS-NET
 #descr:          MChS
 #descr:          31 Dalzavodskaya st., Vladivostok, Russia
@@ -213,12 +245,14 @@
 82.162.103.144/28
 
 #name: Спецсвязь ФСО РФ
+#enname: Special Communication Service
 #netname:        SPEZSVYAZ
 #descr:          SPEZSVYAZ Internal network
 #descr:          NK route block
 78.108.192.0/21
 
 #name: Зеленоградское УИ МЧС
+#enname: EMERCOM of Zelenograd
 #netname:        COMCOR-UIMChSpoMoskveZelenograd
 #descr:          Network for UI MChS po Moskve Zelenograd
 #descr:          comcor.ru
@@ -226,6 +260,7 @@
 94.79.34.192/29
 
 #name: Приморский ФСКН
+#enname: FSKN of Primorsky Krai
 #netname:        Upravlenie_FSKN_Rossii_po_PK
 #descr:          Ticket 10-03557
 #descr:          ROSTELECOM NETS
@@ -233,6 +268,7 @@
 95.167.72.48/30
 
 #name: НИЦИ при МИД
+#enname: RC for CS at the MOFA
 #netname:        SRCI-MID-RF-NET
 #descr:          Research Centre for Computer Science at the Russian Foreign Ministry
 #descr:          Research Centre for Computer Science at the Russian Foreign Ministry
@@ -240,12 +276,14 @@
 194.85.30.0/24
 
 #name: Центринформ
+#enname: CenterInform
 #netname:        ATLAS-NW-NET
 #descr:          Federal State Unitary Enterprise CenterInform
 #descr:          ATLAS-NW-NET
 195.149.110.0/24
 
 #name: Нижегородская ФНС
+#enname: Nizhny Novgorod tax service
 #netname:        NALOG-NET
 #descr:          The Ministry of Taxation of the Russian Federation
 #descr:          in Nizhny Novgorod Region
@@ -256,42 +294,49 @@
 82.208.81.0/24
 
 #name: ГосНИИАС
+#enname: GosNIIAS
 #netname:        GOSNIIAS-NET
 #descr:          Federal state unitary enterprise 'State Research Institute of Aviation Systems'
 #descr:          GOSNIIAS-NET
 193.47.146.0/24
 
 #name: Московское УИ МЧС (Ибрагимова)
+#enname: Moscow UI EMERCOM (Ibragimova)
 #netname:        COMCOR-UpravlInformMChSpoMSKIbragimova
 #descr:          Network for Upravlenie informatizacii MChS po Moskve Ibragimova
 #descr:          comcor.ru
 94.79.34.208/29
 
 #name: Московское УИ МЧС (Реутовская)
+#enname: Moscow UI EMERCOM (Reutovskaya)
 #netname:        COMCOR-UIMChSpoMoskveReutovskaya
 #descr:          Network for UI MChS po Moskve Reutovskaya
 #descr:          comcor.ru
 94.79.34.200/29
 
 #name: Московское УИ МЧС (Нелидовская)
+#enname: Moscow UI EMERCOM (Nelidovkaya)
 #netname:        COMCOR-UpravlenieinformatizaciiMChSpoMoskveNelidovskaya
 #descr:          Network for Upravlenie informatizacii MChS po Moskve Nelidovskaya
 #descr:          comcor.ru
 94.79.34.184/29
 
 #name: Московское УИ МЧС (Твардовского, 16)
+#enname: Moscow UI EMERCOM (Tvardovskogo, 16)
 #netname:        COMCOR-UIMChSpogMoskvetvardovskogo16
 #descr:          Network for UI  MChS po g  Moskve tvardovskogo 16
 #descr:          comcor.ru
 94.79.34.240/29
 
 #name: Московское УИ МЧС (Факельный)
+#enname: Moscow UI EMERCOM (Fakeljnyy)
 #netname:        COMCOR-UpravlenieinformatizaciidlyaMChSpoMoskveFakeljnyy
 #descr:          Network for Upravlenie informatizacii dlya MChS po Moskve Fakeljnyy
 #descr:          comcor.ru
 94.79.35.248/29
 
 #name: ЦИК
+#enname: Central Election Commission
 #netname:        RSNET
 #descr:          RUSSIAN STATE INTERNET NETWORK
 #descr:          Main Division of Informations Resources
@@ -300,6 +345,7 @@
 194.226.97.0/24
 
 #name: ФСКН
+#enname: FSKN
 #netname:        RU_FSKN
 #descr:          Ticket 10-05505-3
 #descr:          ROSTELECOM NETS
@@ -309,6 +355,7 @@
 193.164.232.128/27
 
 #name: МИД
+#enname: Ministry of Foreign Affairs
 #netname:        MFA-RU2
 #descr:          Ministry of Foreign Affairs of Russia(MOFA)
 #descr:          Moscow, Russia
@@ -320,12 +367,14 @@
 194.85.152.24/30
 
 #name: Новгородская ФНС
+#enname: Novgorod tax service
 #netname:        UMNS-NOVGOROD
 #descr:          Ministry of Taxation, subsidiary of Novgorod region
 #descr:          RTCOMM-RU
 213.59.91.48/29
 
 #name: Ростовская ФНС
+#enname: Rostov tax service
 #netname:        UMNS-ROSTOV
 #descr:          Ministry of Taxation of Rostov region
 #descr:          Rostov-na-Donu, Socialisticheskaya 96/98.
@@ -333,6 +382,7 @@
 213.59.122.88/29
 
 #name: Следственный комитет
+#enname: Investigative Committee
 #descr:          The Investigative Committee
 #descr:          at the Prosecutor's Office of
 #descr:          the Russian Federation
@@ -342,12 +392,14 @@
 92.39.133.160/28
 
 #name: ФОМС
+#enname: Federal Compulsory Medical Insurance Fund
 #netname:        FOMS
 #descr:          Federal Compulsory Health Insurance Fund
 #descr:          FOMS
 91.226.250.0/24
 
 #name: Татарстанская ФНС
+#enname: Tatarstan tax service
 #netname:        UMNS-KAZAN
 #descr:          Ministry of Taxation of Tatarstan Republic
 #descr:          420094, Kazan, 3, Bondarenko's str
@@ -355,6 +407,7 @@
 213.59.59.128/29
 
 #name: Пермская ФНС
+#enname: Perm tax service
 #netname:        UMNS-PERM
 #descr:          Ministry of Taxation, subsidiary of Perm region
 #descr:          614600, Perm, 46, Okulova str
@@ -362,6 +415,7 @@
 213.59.59.16/29
 
 #name: Смоленская дума
+#enname: Smolensk duma
 #netname:        Smolensk-Duma
 #descr:          JSC Rostelecom Client (city Smolensk)
 #descr:          ROSTELECOM NETS
@@ -372,12 +426,14 @@
 92.241.99.224/28
 
 #name: Росатом
+#enname: Rosatom
 #netname:        ROSATOM-INET-INTERNAL-USERS-1
 #descr:          Rosatom outside-zone (internet users, internal, building #1)
 #descr:          SCC ROSATOM
 88.151.200.0/21
 
 #name: ЦТСПИ при МИД
+#enname: CTSPI of the MOFA
 #netname:        RU-CTSPI-20050201
 #descr:          CTSPI Company
 #descr:          CTSPI Company Moscow Region Network
@@ -385,6 +441,7 @@
 80.73.16.0/20
 
 #name: НТЦ Атлас
+#enname: Atlas
 #netname:        ATLAS-NET
 #descr:          FGUP NTC ATLAS
 #descr:          TELEDISCOUNT
@@ -395,6 +452,7 @@
 91.190.236.0/22
 
 #name: Томская ФНС
+#enname: Tomsk tax service
 #netname:        UMNS-TSK
 #descr:          Ministry of Taxation of Tomsk region
 #descr:          55, Frunze pr., Tomsk, Russia
@@ -408,6 +466,7 @@
 213.24.76.0/23
 
 #name: Центр специальной связи и информации ФСБ в Перми
+#enname: Centre of Special Communication & Information of the FSB
 #netname:        RT-CLNT-CPS2
 #descr:          Centre of Special Communication and Information of the Federal Security Service of the Russian Federation in the Perm region
 #descr:          614000,12 25 Oktyabrya str, Perm
@@ -417,6 +476,7 @@
 195.225.232.0/22
 
 #name: ФСО
+#enname: Federal Protective Service
 #netname:        RSNET
 #descr:          RUSSIAN STATE INTERNET NETWORK
 #descr:          Federal Guard Service of the Russian Federation
@@ -424,6 +484,7 @@
 95.173.128.0/19
 
 #name: МЧС
+#enname: EMERCOM
 #netname:        COMCOR-FGUPMChSRossii
 #descr:          Network for FGUP MChS Rossii
 #descr:          comcor.ru
@@ -433,6 +494,7 @@
 213.234.15.248/30
 
 #name: ВГТРК
+#enname: VGTRK
 #netname:        VGTRK-ITD
 #descr:          IT Department
 #descr:          VGTRK
@@ -447,12 +509,14 @@
 193.105.14.0/24
 
 #name: ГлавНИВЦ управления делами Президента
+#enname: GlavNIVZ
 #netname:        GLAVNIVZ
 #descr:          FSUE "GlavNIVZ"
 #descr:          FSUE "GlavNIVZ"
 46.29.152.0/21
 
 #name: МВД
+#enname: MVD
 #netname:        MOIA-NET
 #descr:          Ministry of Interior Affairs of Russian Federation
 #descr:          Network of Ministry of Interior Affairs RF
@@ -460,6 +524,7 @@
 194.8.70.0/23
 
 #name: Мордовская ФНС
+#enname: Mordovia tax service
 #netname:        UMNS-MORDOVIA
 #descr:          Ministry of Taxation, subsidiary of Morodovia region
 #descr:          3/1, Moskovskaya st.,
@@ -468,6 +533,7 @@
 217.107.5.8/29
 
 #name: Центральная поликлиника ФСКН
+#enname: Central clinic of FSKN
 #netname:        MTU-CUST-D8D9FB95
 #descr:          GU "Centralnaja poliklinika" FSKN Rossii
 #descr:          ZAO MTU-Intel's Moscow Region Network
@@ -478,6 +544,7 @@
 212.100.159.120/29
 
 #name: ФАПРИД
+#enname: FAPRID
 #netname:        ZEN-CUST-FAPRID
 #descr:          Federal agency for legal protection
 #descr:          of molitary, special and dual use
@@ -490,12 +557,14 @@
 213.189.199.128/28
 
 #name: ГРЧЦ
+#enname: General Radio Frequency Centre
 #netname:        GRFC-NET
 #descr:          Federal Unitary State Enterprise General Radio Freqency Centre
 #descr:          RU-GRFC-NET
 194.165.22.0/23
 
 #name: Кировская ФНС
+#enname: Kirov tax service
 #netname:        RU-KIROV-NALOG
 #descr:          The Ministry of Taxation of the Russian Federation in Kirov
 #descr:          Russia, Kirov
@@ -504,12 +573,14 @@
 217.106.150.88/29
 
 #name: РСВО
+#enname: Broadcasting and Notification Network
 #netname:        RU-MSRN-20100701
 #descr:          Federal State Unitary Enterprise of the Order of the Red Banner of Labour "Russian Broad-casting and Notification Network"
 #descr:          Moscow City Radio Broadcasting Network
 178.237.240.0/20
 
 #name: Приволжская ФНС
+#enname: Tax service of Privolzhsky district
 #netname:        RU-PRIVOL-NALOG
 #descr:          The Ministry of Taxation of the Russian Federation in Privoljskii Federal region
 #descr:          Russia, N.Novgorod
@@ -518,6 +589,7 @@
 217.106.150.72/29
 
 #name: Электронное правительство
+#enname: Electronic Government
 #netname:        Electronic-government
 #descr:          OJSC Rostelecom
 #descr:          Electronic government of the Russian Federation
@@ -525,6 +597,7 @@
 109.207.0.0/20
 
 #name: Казначейство Северной Осетии-Алании
+#enname: Treasury of Vladikavkaz
 #netname:        TREASURY-VLADIKAVKAZ
 #descr:          Department of Federal Treasury of Russian Ministry of Finance,
 #descr:          Republic North Ossetia-Alania, 362008, Vladikavkaz, yl. Kotzoeva, 24
@@ -533,6 +606,7 @@
 217.106.93.192/26
 
 #name: ВЭИ
+#enname: VEI
 #netname:        vei
 #descr:          Federal State Unity Enterprise
 #descr:          All-Russian Electrotechnical Institute of V.I. Lenin
@@ -541,18 +615,21 @@
 194.190.89.0/24
 
 #name: Ростовский минфин
+#enname: Ministry of Finance of Rostov
 #netname:        MINFIN-RND-NET
 #descr:          The Financial ministry of Rostov region
 #descr:          RTCOMM-RU
 217.106.95.112/28
 
 #name: Липецкая дума
+#enname: Lipetsk duma
 #netname:        LIP-OBLSOVET-1-NET
 #descr:          Lipetsk Regional Duma
 #descr:          Lipetsk Regional Public Network Route N4
 195.34.233.32/29
 
 #name: Железногорский ГХК
+#enname: Zheleznogorsk Mining Chemical Combine
 #netname:        ATOMLINK-NET
 #descr:          ATOMLINK
 #descr:          Telecommunications Network of Mining Chemical Combine
@@ -560,6 +637,7 @@
 94.199.64.0/21
 
 #name: Пермский МЧС
+#enname: Perm EMERCOM
 #netname:        Ten_OTRYAD-MCHS
 #descr:          10 Otryad MCHS Perm region network, Perm, Russia
 #descr:          RU-PERMONLINE block
@@ -571,6 +649,7 @@
 90.150.176.64/30
 
 #name: ФСК ЕЭС
+#enname: FGC UES
 #netname:        FSK-ESS-OJSC-NET
 #descr:          FSK EES OJSC
 #descr:          512 PI
@@ -578,12 +657,14 @@
 194.8.246.0/23
 
 #name: Алтайский ФСКН
+#enname: FSKN of Altai
 #netname:        FSKN_Rossii_RU_po_Altajskomu_kraju
 #descr:          Ticket 10-23105-2
 #descr:          ROSTELECOM NETS
 95.167.162.236/30
 
 #name: Воронежская дума
+#enname: Voronezh duma
 #netname:        VRNOBLDUMA-NET
 #descr:          Oblastnaya duma
 #descr:          Voronezh
@@ -594,6 +675,7 @@
 195.98.73.56/29
 
 #name: Карельская ФНС
+#enname: Karelia tax service
 #netname:        UMNS-KARELIA
 #descr:          Ministry of Taxation, subsidiary of Republic of Karelia
 #descr:          Petrozavodsk, Russia
@@ -601,6 +683,7 @@
 217.106.115.168/29
 
 #name: Хабаровский ФСКН
+#enname: FSKN of Khabarovsk
 #netname:        FSKN_RF__Khabarovsk
 #descr:          Ticket 10-21819-1
 #descr:          ROSTELECOM NETS
@@ -608,12 +691,14 @@
 188.128.98.204/30
 
 #name: Читинский ФСКН
+#enname: FSKN of Chita
 #netname:        FSKN
 #descr:          JSC Rostelecom Client (city Chita)
 #descr:          ROSTELECOM NETS
 94.25.70.64/30
 
 #name: Ханты-Мансийский ФНС
+#enname: Khanty-Mansiysk tax service
 #netname:        MNSHMAO
 #descr:          Management of the Russian Federation
 #descr:          Tax and Duty Ministry in Khanty- Mansiysk autonomous region
@@ -623,6 +708,7 @@
 217.20.86.240/28
 
 #name: Тюменская ФНС
+#enname: Tyumen tax service
 #netname:        UMNS-TUMEN
 #descr:          Ministry of Taxation, subsidiary of Tyumen region
 #descr:          625000, Tyumen, Tovarnoe Chosse str., 15
@@ -630,6 +716,7 @@
 213.59.59.144/29
 
 #name: Самарская ФНС
+#enname: Samara tax service
 #netname:        UMNS-SAMARA
 #descr:          Ministry of Taxation, subsidiary of Samara region
 #descr:          9, Tsiolkovskogo st.,
@@ -638,6 +725,7 @@
 217.107.5.40/29
 
 #name: Министерство культуры
+#enname: Ministry of Culture
 #netname:        GIVC
 #descr:          FSUE the Main information computer center
 #descr:          of the Ministry of culture of the Russian Federation
@@ -646,6 +734,7 @@
 194.190.9.0/24
 
 #name: Спецстрой ФСБ
+#enname: Agency of Special Construction of the FSB
 #netname:        MTU-CUST-D10EF4E3
 #descr:          FGUP Upravlenie specialnogo stroitelstva FSB RF
 #descr:          ZAO MTU-Intel's Moscow Region Network
@@ -654,18 +743,21 @@
 195.42.75.8/29
 
 #name: НТЦ Информрегистр
+#enname: Informregistr
 #netname:        COMCOR-FGUPNTCInformregistr
 #descr:          Network for FGUP NTC "Informregistr"
 #descr:          comcor.ru
 62.117.66.160/29
 
 #name: Самарская дума
+#enname: Samara Duma
 #netname:        SAMARA-TTK-NET-12S0348
 #descr:          net GorDuma /28
 #descr:          P2P /28 NETS, STTK
 46.20.70.160/28
 
 #name: Магаданская дума
+#enname: Magadan duma
 #netname:        RU-ARBUZ-MAGGORDUMA-NET
 #descr:          The Magadan municipal duma
 #descr:          Russia, 685000, Magadan, 1 Gorkogo str.
@@ -681,13 +773,15 @@
 
 
 #name: Майкопская ФНС
+#enname: Maykop tax service
 #netname:        UMNS-MAYKOP
 #descr:          Ministry of Taxation of Maykop region
 #descr:          Privokzalnaya, 331
 #descr:          RTCOMM-RU
 213.59.122.72/29
 
-#name: Оренбугрская ФНС
+#name: Оренбургская ФНС
+#enname: Orenburg tax service
 #netname:        UMNS-ORENBURG
 #descr:          Ministry of Taxation, subsidiary of Orenburg region
 #descr:          11a, 60 let Oktyabrya st.,
@@ -695,21 +789,15 @@
 #descr:          RTCOMM-RU
 217.107.5.16/29
 
-#name: Министерство образования
-#netname:        MON-RUNNET
-#descr:          The Ministry of Education and Sciences of the Russian Federation
-#descr:          Moscow, Russia
-#descr:          RUNNet
-#descr:          Russian Federal University Network
-82.179.86.32/27
-
 #name: Министерство финансов
+#enname: Ministry of Finance
 #netname:        MINFINPI-NET
 #descr:          Ministry of Finance of the Russian Federation
 #descr:          MINFIN
 195.80.224.0/24
 
 #name: АТС Смольного
+#enname: ATS Smolnogo
 #netname:        ATS-SMOLNOGO-LAN
 #descr:          ATS Smolnogo
 #descr:          St.Petersburg
@@ -717,17 +805,20 @@
 46.47.211.0/24
 
 #name: Барнаульский ФСИН
+#enname: FSIN of Barnaul
 #netname:         barnaul-fsin-su
 #descr:           penal system
 81.1.236.192/27
 81.1.237.176/29
 
 #name: ФКУ УАТ ФСИН
+#enname: FKU UAT FSIN
 #netname:         COMCOR-FKU-UAT-FSIN-Rossii
 #descr:           Network for FKU UAT FSIN Rossii
 82.138.54.72/29
 
 #name: Следственный изолятор №3, Череповец
+#enname: Remand prison №3, Cherepovets
 #netname:         SLED-IZOLYATOR-FSIN-LAN
 #descr:           CHER,Severnoe,67B
 #descr:           North-West Region
@@ -735,6 +826,7 @@
 37.28.161.48/30
 
 #name: Роспатент
+#enname: Rospatent
 #netname:        ROSPAT
 #descr:          Russian Patent include All Russian scientific
 #descr:          and research institute of state patent
@@ -743,6 +835,7 @@
 195.208.85.192/26
 
 #name: Пермский Роспотребнадзор
+#enname: Perm Rospotrebnadzor
 #netname:        ROS-POTREB-NADZOR
 #descr:          Control Rospotrebnadzor on Perm region, Russia
 #descr:          78, October str., Vereshchagino
@@ -770,6 +863,7 @@
 90.150.189.232/29
 
 #name: Каменск-Шахтинский Роспотребнадзор
+#enname: Rospotrebnadzor of Kamensk-Shaxtinsk
 #netname:         ROSPOTREBNADZOR-KSHAXTINSK-NET
 #descr:           Territorial Administration of Federal
 #descr:           Service of Control in Sphere of Defence
@@ -779,6 +873,7 @@
 87.117.21.32/29
 
 #name: Азовский Роспотребнадзор
+#enname: Azov Rospotrebnadzor
 #netname:        ROSPOTREBNADZOR-AZOV-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -788,6 +883,7 @@
 87.117.21.8/29
 
 #name: Роспотребнадзор Белая Калитва
+#enname: Rospotrebnadzor of Belaja Kalitva
 #netname:        ROSPOTREBNADZOR-BKALITVA-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -797,6 +893,7 @@
 87.117.21.16/29
 
 #name: Новочеркасский Роспотребнадзор
+#enname: Novocherkassk Rospotrebnadzor
 #netname:        ROSPOTREBNADZOR-NOVOCHERKASSK-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -806,6 +903,7 @@
 87.117.21.80/29
 
 #name: Волгодонский Роспотребнадзор
+#enname: Volgodonsk Rospotrebnadzor
 #netname:        ROSPOTREBNADZOR-VOLGODONSK-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -817,6 +915,7 @@
 87.117.21.0/29
 
 #name: Роспотребнадзор Орловка
+#enname: Orlovka Rospotrebnadzor
 #netname:        ROSPOTREBNADZOR-ORLOVKA-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -839,6 +938,7 @@
 87.117.21.56/29
 
 #name: Вешкинский Роспотребнадзор
+#enname: Rospotrebnadzor of Vyoshenskaya stanitsa
 #netname:        ROSPOTREBNADZOR-VESHKI-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -850,6 +950,7 @@
 87.117.21.72/29
 
 #name: Миллеровский Роспотребнадзор
+#enname: Rospotrebnadzor of Millerovo
 #netname:        ROSPOTREBNADZOR-MILLEROVO-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -861,6 +962,7 @@
 87.117.21.40/29
 
 #name: Цимлянский Роспотребнадзор
+#enname: Tsimlyansky Rospotrebnadzor
 #netname:        ROSPOTREBNADZOR-CIMLYANSK-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -872,6 +974,7 @@
 87.117.21.24/29
 
 #name: Шахтинский Роспотребнадзор
+#enname: Rospotrebnadzor of Shakhty
 #netname:        ROSPOTREBNADZOR-SHAXTU-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -883,6 +986,7 @@
 87.117.21.64/29
 
 #name: Ростовский Роспотребнадзор
+#enname: Rostov Rospotrebnadzor
 #netname:        ROSPOTREBNADZOR-ROSTOV-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -898,6 +1002,7 @@
 87.117.46.232/29
 
 #name: Таганрогский Роспотребнадзор
+#enname: Taganrog Rospotrebnadzor
 #netname:        ROSPOTREBNADZOR-TAGANROG-NET
 #descr:          Territorial Administration of Federal
 #descr:          Service of Control in Sphere of Defence
@@ -907,15 +1012,18 @@
 #descr:          Routing object of
 #descr:          Division of JSC "UTK" "Rostovelectrosviaz" and its deport
 87.117.18.144/29
+93.178.104.64/30
 93.178.104.68/30
 
 #name: Рязанский Роспотребнадзор
+#enname: Ryazan Rospotrebnadzor
 #netname:        Rospotrebnadzor_Ryazan
 #descr:          Ticket 09-20598-1, RISS 11533, CF
 #descr:          ROSTELECOM NETS
 95.167.4.168/29
 
 #name: Роспотребнадзор по ЖД
+#enname: Rospotrebnadzor of railway transport
 #netname:        Rospotrebnadzor-ru-net
 #descr:          pravlenie Rospotrebnadzora po zheleznodorozhnomu transport
 #descr:          Moscow, Russia
@@ -923,29 +1031,21 @@
 85.236.29.160/27
 
 #name: Владимирский Роспотребнадзор
+#enname: Vladimir Rospotrebnadzor
 #netname:        RPN33
 #descr:          RosPotrebNadzor, Vladimir
 #descr:          ELCOM ISP
 84.53.210.144/28
 
-#name: Таганрогский Роспотребнадзор
-#netname:        ROSPOTREBNADZOR-TAGANROG-NET
-#descr:          Territorial Administration of Federal
-#descr:          Service of Control in Sphere of Defence
-#descr:          Protection of Consumer's Right and Welfare of Person RO
-#descr:          Taganrog, Bolshoi prospect str., 16a
-#descr:          Taganrog, Rostovskaia oblast, 347930
-#descr:          Routing object of
-#descr:          Division of JSC "UTK" "Rostovelectrosviaz" and its deport
-93.178.104.64/30
-
 #name: Ангарский Роспотребнадзор
+#enname: Rospotrebnadzor of Anragsky
 #netname:        VLG-RPN-Angarsky-2
 #descr:          Volgograd Rospotrebnadzor on Angarsky
 #descr:          Unico network
 213.234.8.8/30
 
 #name: ЦНИИЭ
+#enname: TSNIIE
 #netname:        TNTrade-NET
 #descr:          Federal Budget Institution of Science "Central Scientific and Research Institute of Epidemiology of Rospotrebnadzor"
 #descr:          COMSTAR Telecommunications
@@ -953,6 +1053,7 @@
 89.175.8.68/30
 
 #name: Камчатский Роспотребнадзор
+#enname: Rospotrebnadzor of Kamchatka
 #netname:        Rospotrebnadzor-Kam
 #descr:          Rospotrebnadzor-Kam
 #descr:          OJSC Rostelecom
@@ -960,6 +1061,7 @@
 77.82.124.112/29
 
 #name: Нижегородский Роспотребнадзор
+#enname: Rospotrebnadzor of Nizhny Novgorod Oblast
 #netname:        Rospotrebnadzor-NET
 #descr:          Personal network for
 #descr:          Upravlenie Rospotrabnadzora po Nizhegorodskoy obl.
@@ -969,6 +1071,7 @@
 89.109.7.176/29
 
 #name: Роспотребнадзор
+#enname: Rospotrebnadzor
 213.234.11.4/30
 217.149.182.120/30
 188.247.40.60/30
@@ -976,6 +1079,7 @@
 92.39.107.60/30
 
 #name: Приморская прокуратура
+#enname: Prosecutor of the Primorsky district
 #netname:        POL-PROSECUTORS-NET
 #descr:          Prosecutor's Office of the Primorsky region
 #descr:          PRIMORYE NET
@@ -989,12 +1093,14 @@
 82.162.72.208/28
 
 #name: Дальневосточная прокуратура
+#enname: Prosecutor in Far East
 #netname:        KHT-GEN-PROCURATURA
 #descr:          Department of the State Office of Public Prosecutor of the Russian Federation in Far East Federal District
 #descr:          KHT_RU
 85.114.93.88/29
 
 #name: ММТП
+#enname: Moscow interregional transport prosecutor's office
 #netname:        WESTCALL-CUST-MITPO
 #descr:          Moscow interregional transport prosecutor's office
 #descr:          2 st Lesnoryadskaya. House, 13/15
