@@ -4,210 +4,254 @@
 ## некоторые могут иметь не столь очквидные признаки "причастности"          ##
 ###############################################################################
 
-#inetnum:        62.117.66.160 - 62.117.66.167
-#descr:          Network for FGUP NTC "Informregistr"
+# netname:        COMCOR-FGUPNTCInformregistr
+# descr:          Network for FGUP NTC "Informregistr"
+# origin:         AS8732
 62.117.66.160/29
 
-
-# TODO: сделать все комментарии к подсетям по образцу ФСКН
-
-#ФСКН:  fskn.gov.ru
-#inetnum:        78.108.192.0 - 78.108.199.255
+###############################################################################
+# ФСКН, fskn.gov.ru
+###############################################################################
 #netname:        SPEZSVYAZ
 #descr:          SPEZSVYAZ Internal network
-#% Information related to '78.108.192.0/20AS31430'
-#route:          78.108.192.0/20
-#descr:          NK route block
 #origin:         AS31430
-78.108.192.0/20
+#Старая подсеть: 78.108.192.0/20
+82.112.188.0/24
+###############################################################################
 
-#Налоговая nalog.ru
-#inetnum:        81.176.235.0 - 81.176.235.31
-#netname:        NALOG-RU
-#descr:          FGUP GNIVC FNS Russia
-#country:        RU
-#admin-c:        AA10949-RIPE
-#tech-c:         AA10949-RIPE
-#route:          81.176.0.0/16
-#descr:          RTCOMM-RU
-#origin:         AS8342
-81.176.0.0/16
+###############################################################################
+## РосКомНадзор                                                              ##
+###############################################################################
+# rkn.gov.ru rsoc.ru
+# netname:        RU-RTCOMM-20001220
+# descr:          OJSC RTComm.RU
+# origin:         AS8342
+# (?) 217.106.0.0/16
+217.106.225.128/27
 
-#inetnum:        85.142.52.0 - 85.142.55.255
-#descr:          WelL-COM ltd.
-#descr:          194017 Drezdenskaya 8/2, Saint-Petersburg, Russia
+# eais.rkn.gov.ru nap.rkn.gov.ru
+# netname:        MMT
+# descr:          MMT NPROD CMS 11-27194
+# origin:         AS12389
+# (?) 46.61.128.0/17
+
+# 398-fz.rkn.gov.ru
+# netname:        BROADBAND_INTERNET_ACCESS
+# descr:          BROADBAND INTERNET ACCESS FOR CUSTOMERS ROSTELECOM
+# origin:         AS12389
+# (?) 188.254.0.0/17
+188.254.0.0/20
+###############################################################################
+
+###############################################################################
+# Федеральная Налоговая Служба (ФНС) nalog.ru
+###############################################################################
+# netname:        RTCOMM-GNIVC
+# descr:          Chief Scientific - Research Computing Center of the Federal
+# Tax Service of Russia
+# descr:          FGUP GNIVC FNS Russia
+# origin:         AS8342
+# (?) 81.176.0.0/16
+81.176.70.0/26
+81.176.235.0/27
+###############################################################################
+
+# (?) FIXME?
+# netname:        WELL-COM-NET
+# descr:          WelL-COM ltd.
+# descr:          194017 Drezdenskaya 8/2, Saint-Petersburg, Russia
+# origin:         AS3267
 85.142.52.0/24
 
-#inetnum:        91.190.236.0 - 91.190.239.255
-#descr:          Novosibirsk department of Atlas ISP
-#descr:          Novosibirsk department of Atlas ISP
-91.190.236.0/22
-
-#inetnum:        91.224.182.0 - 91.224.183.255
-#descr:          Nezavisimaya telekommunikacionnaya kompaniya Ltd.
-#descr:          NTK Route Obj
+# (?) FIXME?
+# netname:        NTKLtd-NET
+# descr:          Nezavisimaya telekommunikacionnaya kompaniya Ltd.
+# origin:         AS56477
 91.224.182.0/23
 
-#inetnum:        91.227.32.0 - 91.227.32.255
-#descr:          FGUP Goznak
-#descr:          Goznak Network for Public Service
-#descr:          Maintains all Goznak objects.
+###############################################################################
+# Гознак
+###############################################################################
+# netname:        GOZNAK-AS
+# descr:          FGUP Goznak
+# descr:          Goznak Network for Public Service
+# descr:          Maintains all Goznak objects.
+# origin:         AS56725
 91.227.32.0/24
+###############################################################################
 
-#inetnum:        91.236.22.0 - 91.236.23.255
-#descr:          State Science Centre VNIIGeosystem
-#descr:          State Science Centre VNIIGeosystem
-91.236.22.0/23
-
-#inetnum:        92.39.133.160 - 92.39.133.175
-#descr:          The Investigative Committee
-#descr:          at the Prosecutor's Office of
-#descr:          the Russian Federation
-#descr:          Tekhnicheskiy per., 2
-#descr:          Moscow, Russia
-#descr:          WestCall Ltd
+###############################################################################
+# Следственый комитет (СК РФ)
+###############################################################################
+# netname:        RU-WEST-CALL-20080227
+# descr:          The Investigative Committee
+# descr:          at the Prosecutor's Office of
+# descr:          the Russian Federation
+# descr:          Tekhnicheskiy per., 2
+# descr:          Moscow, Russia
+# descr:          WestCall Ltd
+# origin:         AS8595
 92.39.133.160/28
 
-#inetnum:        94.199.64.0 - 94.199.71.255
-#descr:          OOO "Telecom GKhK"
-#descr:          ATOMLINK-AS
+# сайт: sledcom.ru
+# netname:        RSNET
+# descr:          RUSSIAN STATE INTERNET NETWORK
+# descr:          Federal Guard Service of the Russian Federation
+# origin:         AS43797
+# 95.173.144.0/20
+
+###############################################################################
+
+# (?) FIXME?
+# netname:        RU-ATOMLINK-20081107
+# descr:          OOO "Telecom GKhK"
+# descr:          ATOMLINK-AS
+# origin:         AS48302
 94.199.64.0/21
 
-#inetnum:        95.173.128.0 - 95.173.159.255
-#descr:          The Federal Guard Service of the Russian Federation
+###############################################################################
+# Федеральная Служба Охраны (ФСО)
+###############################################################################
+# netname:        RU-FGS-20090305
+# descr:          The Federal Guard Service of the Russian Federation
+# origin:         AS8291
 95.173.128.0/19
+###############################################################################
 
 ###############################################################################
 ## А ещё из этой подсети уже с давних пор ходит краулер Спутника             ##
 ###############################################################################
-#inetnum:        109.207.0.0 - 109.207.15.255
-#descr:          OJSC Rostelecom
-#descr:          Electronic government of the Russian Federation
-#descr:          Electronic-government
+# netname:        Electronic-government
+# descr:          OJSC Rostelecom
+# descr:          Electronic government of the Russian Federation
 109.207.0.0/20
 
-#Правительство москвы, mos.ru Лига безопасного интернета ligainternet.ru
-#178.248.232.0 - 178.248.239.255  
-#person:         Alexander Asimov
-#address:        Denegnyi lane 18
-#address:        119002 Moscow
-#address:        Russian Federation
-#mnt-by:         MNT-QRATOR
-#phone:          +7-499-241-81-92
-#nic-hdl:        AA8879-RIPE
+###############################################################################
+# Правительство москвы, mos.ru Лига безопасного интернета ligainternet.ru
+###############################################################################
+# netname:        RU-QRATOR-20100512
+# descr:          HLL LLC
+# remarks:        QRATOR filtering network
+# origin:         AS197068
 178.248.232.0/21
+###############################################################################
 
-#inetnum:        178.237.206.0 - 178.237.206.255
-#descr:          FGUP NTC ATLAS
-#descr:          TELEDISCOUNT
-178.237.206.0/24
-
-#inetnum:        178.237.240.0 - 178.237.255.255
-#descr:          Federal State Unitary Enterprise of the Order of the Red Banner of Labour "Russian Broad-casting and Notification Network"
-#descr:          Moscow City Radio Broadcasting Network
+# netname:        RU-MSRN-20100701
+# descr:          Federal State Unitary Enterprise of the Order of the Red Banner of Labour "Russian Broad-casting and Notification Network"
+# descr:          Moscow City Radio Broadcasting Network
+# origin:         AS197150
 178.237.240.0/20
 
-#inetnum:        193.105.14.0 - 193.105.14.255
-#descr:          Federal State-owned Enterprise Russian Television and Radio Broadcasting Network
-#descr:          route for RTTC-net
+# netname:        RTTC-net
+# descr:          Federal State-owned Enterprise Russian Television and Radio Broadcasting Network
+# descr:          route for RTTC-net
+# origin:         AS57767
 193.105.14.0/24
 
-#inetnum:        194.165.22.0 - 194.165.23.255
-#descr:          Federal Unitary State Enterprise General Radio Freqency Centre
-#descr:          RU-GRFC-NET
+# netname:        GRFC-NET
+# descr:          Federal Unitary State Enterprise General Radio Freqency Centre
+# origin:         AS196641
 194.165.22.0/23
 
-#inetnum:        194.226.80.0 - 194.226.95.255
-#descr:          RUSSIAN STATE INTERNET NETWORK
-#descr:          Main Division of Informations Resources
-#descr:          for States organs of the Russian Federation
-#descr:          RGIN
+# netname:        RSNET
+# descr:          RUSSIAN STATE INTERNET NETWORK
+# descr:          Main Division of Informations Resources
+# descr:          for States organs of the Russian Federation
+# origin:         AS8291
 194.226.80.0/20
-
-#inetnum:        194.226.116.0 - 194.226.119.255
-#descr:          RUSSIAN STATE INTERNET NETWORK
-#descr:          Main Division of Informations Resources
-#descr:          for States organs of the Russian Federation
-#descr:          RSNET
 194.226.116.0/22
-
-#inetnum:        194.226.127.0 - 194.226.127.255
-#descr:          RUSSIAN STATE INTERNET NETWORK
-#descr:          Main Division of Informations Resources
-#descr:          for States organs of the Russian Federation
-#descr:          RUSSIAN STATE INTERNET NETWORK
+# origin:         AS42121
 194.226.127.0/24
 
-#inetnum:        194.85.30.0 - 194.85.30.255
-#descr:          Research Centre for Computer Science at the Russian Foreign Ministry
-#descr:          Research Centre for Computer Science at the Russian Foreign Ministry
+# netname:        SRCI-MID-RF-NET
+# descr:          Research Centre for Computer Science at the Russian Foreign Ministry
+# origin:         AS57580
 194.85.30.0/24
 
-#inetnum:        195.149.110.0 - 195.149.110.255
-#descr:          Federal State Unitary Enterprise CenterInform
-#descr:          ATLAS-NW-NET
+# netname:        ATLAS-NW-NET
+# descr:          Federal State Unitary Enterprise CenterInform
+# descr:          ATLAS-NW-NET
+# origin:         AS29450
 195.149.110.0/24
 
-#моспрокуратура: mosproc.ru
-#inetnum:        212.42.32.0 - 212.42.63.255
-#descr:          RopNet
-#org:            ORG-RA24-RIPE
-#netname:        RU-ROPNET-990301
-#country:        RU
-#route:          212.42.32.0/19
-#descr:          RopNet-Block1
-#origin:         AS12314
-212.42.32.0/19
-# Раз есть RopNet-Block1, должны быть и ropnet-blockN
+# netname:        ATLAS-NET
+# descr:          FGUP NTC ATLAS
+# origin:         AS51665
+178.237.206.0/24
 
-#inetnum:        213.24.76.0 - 213.24.77.255
-#descr:          Federal Security Service of Russian Federation
-#descr:          3/6 Lubyansky Proezd Moscow 103045
-#descr:          RTCOMM-RU
+# (?) FIXME?
+# netname:        ATLASNSK
+# descr:          Novosibirsk department of Atlas ISP
+# origin:         AS43208
+91.190.236.0/22
+
+###############################################################################
+# Московская прокуратура: mosproc.ru
+###############################################################################
+# netname:        RU-ROPNET-990301
+# descr:          RopNet
+# descr:          RopNet-Block1
+# origin:         AS12314
+212.42.32.0/19
+# (?) Раз есть RopNet-Block1, должны быть и ropnet-blockN
+###############################################################################
+
+###############################################################################
+# Федеральная Служба Безопасности (ФСБ)
+###############################################################################
+# netname:        RT-CLNT-FSB-RF
+# descr:          Federal Security Service of Russian Federation
+# descr:          3/6 Lubyansky Proezd Moscow 103045
+# origin:         AS8342
 213.24.76.0/23
+###############################################################################
 
 ###############################################################################
 ###################       Научные центры/институты       ######################
 ## есть мнение, что их нужно исключить. Welcome в issue ;) ####################
 ###############################################################################
 
-#inetnum:        193.27.214.0 - 193.27.215.255
-#descr:          Network Federal agency on education
-#descr:          51, st. Lusinovskaya, Moscow, 115998, Russia
-#descr:          Network Federal agency on education
+###############################################################################
+# Министерство образования (МинОбрНауки)
+###############################################################################
+# netname:        SRISI
+# descr:          Network Federal agency on education
+# descr:          51, st. Lusinovskaya, Moscow, 115998, Russia
+# descr:          Network Federal agency on education
+# origin:         AS3267
 193.27.214.0/23
+###############################################################################
 
-#inetnum:        193.47.146.0 - 193.47.146.255
-#descr:          Federal state unitary enterprise 'State Research Institute of Aviation Systems'
+# netname:        GOSNIIAS-NET
+# descr:          Federal state unitary enterprise 'State Research Institute of Aviation Systems'
+# origin:         AS197553
 193.47.146.0/24
 
-#inetnum:        194.150.202.0 - 194.150.203.255
-#descr:          Federal State Unitary Enterprise "State
-#descr:          Scientific Network
-#descr:          Federal State Unitary Enterprise
-#descr:          "State Scientific-research Institute
-#descr:          of the Civil Aviation (Scientific Center
-#descr:          for maintenance of the flying fitness of airships)"
-#descr:          SC MFFA (NCPLG VS)
-#descr:          Scientific Network
+# netname:        NCPLG-NET
+# descr:          Federal State Unitary Enterprise "State
+# descr:          Scientific Network
+# descr:          Federal State Unitary Enterprise
+# descr:          "State Scientific-research Institute
+# descr:          of the Civil Aviation (Scientific Center
+# descr:          for maintenance of the flying fitness of airships)"
+# descr:          SC MFFA (NCPLG VS)
+# descr:          Scientific Network
+# origin:         AS33888
 194.150.202.0/23
 
-#inetnum:        194.190.89.0 - 194.190.89.255
-#descr:          Federal State Unity Enterprise
-#descr:          All-Russian Electrotechnical Institute of V.I. Lenin
-#descr:          Federal State Unity Enterprise
-#descr:          All-Russian Electrotechnical Institute of V.I. Lenin
+# netname:        vei
+# descr:          Federal State Unity Enterprise
+# descr:          All-Russian Electrotechnical Institute of V.I. Lenin
+# origin:         AS51039
 194.190.89.0/24
 
-#inetnum:        194.226.22.0 - 194.226.23.255
-#descr:          State Science Centre VNIIGeosystem
-#descr:          State Science Centre VNIIGeosystem
+# netname:        VNIIGEOSYSTEM-NET
+# descr:          State Science Centre VNIIGeosystem
+# origin:         AS58279
+91.236.22.0/23
 194.226.22.0/23
 
 ###############################################################################
-
-
-
 
 
 
@@ -224,67 +268,65 @@
 ## Смольный, районные администрации ленобласти, разные комитеты              ##
 ## (!!) требует дополнительной проверки. При любых сомнениях - заводите issue #
 ###############################################################################
-
-#inetnum:        212.119.175.0 - 212.119.175.255
-#netname:        RU-METROCOM-2011011701
-#descr:          CJSC "Metrocom"
-#descr:          29 Odoevskogo Str.
-#descr:          199155, St.Petersburg,Russia
+# netname:        RU-METROCOM-2011011701
+# descr:          CJSC "Metrocom"
+# descr:          29 Odoevskogo Str.
+# descr:          199155, St.Petersburg,Russia
+# origin:         AS6850
 212.119.175.0/24
 # возможно, в 212.119.160.0/19 есть ещё "аффилированные" куски.
 
-#inetnum:        46.47.211.0 - 46.47.211.255
-#netname:        ATS-SMOLNOGO-LAN
-#descr:          ATS Smolnogo
-#descr:          St.Petersburg
-#descr:          JSC PeterStar
+# netname:        ATS-SMOLNOGO-LAN
+# descr:          ATS Smolnogo
+# descr:          St.Petersburg
+# descr:          JSC PeterStar
+# origin:         AS20632
 46.47.211.0/24
 # Возможно, в 46.47.192.0/18 есть ещё "аффилированные" куски.
+###############################################################################
 
+###############################################################################
 # Единая Государственная система управления и передачи данных (ЕГСУПД)
-#inetnum: 195.230.66.0 - 195.230.66.255
-#netname: EGSUPD-NET
-#descr: Federal State Institution "United State System
-#descr: of Data Transfering Management"
-#descr: 19, Trubnikovsky per., 123995, Moscow, Russian Federation
+###############################################################################
+# netname: EGSUPD-NET
+# descr: Federal State Institution "United State System
+# descr: of Data Transfering Management"
+# descr: 19, Trubnikovsky per., 123995, Moscow, Russian Federation
+#
 195.230.66.0/24
-
+###############################################################################
 
 ###############################################################################
 ##                           Прокремлёвские СМИ                              ##
 ###############################################################################
 
-#inetnum: 80.247.32.0 - 80.247.47.255
-#org: ORG-ASTa1-RIPE
-#netname: RU-VGTRK-20020919
-#descr: Federal State Unitary Enterprise Russian State Television and Radio Broadcasting Company
+# netname:        RU-VGTRK-20020919
+# descr:          Federal State Unitary Enterprise Russian State Television and Radio Broadcasting Company
+# origin:         AS25292
 80.247.32.0/20
 
 
-#inetnum: 195.230.68.0 - 195.230.68.255
-#netname: ORTNET
-#descr: Russian Public Television
-#descr: Moscow 127000, Russia
-#descr: 19, Koroleva St.
+# netname:        ORTNET
+# descr:          Russian Public Television
+# origin:         AS6854
 195.230.68.0/24
 
 
-#inetnum: 195.3.240.0 - 195.3.243.255
-#netname: NTV-net
-#descr: OJSC Televison Company NTV
+# netname:        NTV-net
+# descr:          OJSC Televison Company NTV
+# origin:         AS41681
+## (!!) mnt-by:         ROSNIIROS-MNT
 195.3.240.0/22
 
-
-#inetnum: 195.93.246.0 - 195.93.247.255
-#netname: RIAN-NETWORK-MH
-#descr: The Federal State Unitary Enterprise Russian Agency of the International Information RIA Novosti
+# netname:        RIAN-NETWORK-MH
+# descr:          The Federal State Unitary Enterprise Russian Agency of the International Information RIA Novosti
+# origin:         AS44479
 195.93.246.0/23
 
-
-#inetnum: 109.73.4.224 - 109.73.4.255
-#netname: NewsMediaRus
-#descr: OOO News Media-Rus
-#descr: www.life.ru
+# netname:        NewsMediaRus
+# descr:          OOO News Media-Rus
+# descr:          www.life.ru
+# origin:         AS31261
 109.73.4.224/27
 
 
@@ -293,46 +335,29 @@
 ## госструктур.                                                              ##
 ###############################################################################
 
-#Гиббд gibdd.ru, региональные Роспотребнадзора 77.rospotrebnadzor.ru:
-#inetnum:        89.108.121.0 - 89.108.121.255
-#netname:        RU-DATALOGIKA
-#descr:          Datalogika JSC
-#country:        RU
-#route:          89.108.112.0/20
-#descr:          Agava CS
-#origin:         AS43146
-#source:         RIPE # Filtered
+# Гиббд gibdd.ru, региональные Роспотребнадзора 77.rospotrebnadzor.ru:
+# netname:        RU-DATALOGIKA
+# descr:          Datalogika JSC
+# origin:         AS43146
 89.108.112.0/20
 
-#подразделение К: kguvd.ru
-#inetnum:        91.219.192.0 - 91.219.195.255
-#netname:        BEST-HOSTER-NET
-#descr:          Best-Hoster Group Co. Ltd.
-#country:        RU
-#route:          91.219.192.0/22
-#descr:          Best-Hoster Group Co. Ltd.
-#origin:         AS49693
+# подразделение К: kguvd.ru
+# netname:        BEST-HOSTER-NET
+# descr:          Best-Hoster Group Co. Ltd.
+# origin:         AS49693
 91.219.192.0/22
 
-#Роспотребнадзор rospotrebnadzor.ru
-#inetnum:        195.128.157.0 - 195.128.157.255
-#netname:        ONLANTA-NET
-#descr:          Onlanta Ltd.
-#country:        RU
-#route:          195.128.157.0/24
-#descr:          ONLANTA-NET
-#origin:         AS56631
+# Роспотребнадзор rospotrebnadzor.ru
+# netname:        ONLANTA-NET
+# descr:          Onlanta Ltd.
+# origin:         AS56631
 195.128.157.0/24
 
-#МВД: mvd.ru
-#route:          213.232.192.0/18
-#descr:          RusComNet Ltd.
-#origin:         AS21414
-#member-of:      RS-RCN
-#mnt-by:         RCN-NOC
+# МВД: mvd.ru
+# netname:        RU-RUSCOMNET-20030515
+# descr:          RusComNet Ltd.
+# origin:         AS21414
 213.232.192.0/18
-
-
 
 
 ##############################   Копирасты   ##################################
@@ -341,32 +366,22 @@
 ## не возражает - пусть пока "поживут" тут. Если что - issues к вашим услугам #
 ###############################################################################
 
-#федерация защиты правообладателей fzpr.ru
-#inetnum:        89.111.176.0 - 89.111.179.255
-#netname:        CCC-HC
-#descr:          Garant-Park-Telecom, Ltd.
-#country:        RU
-#route:          89.111.176.0/20
-#descr:          JSC Centrohost route
-#origin:         AS41126
+# федерация защиты правообладателей fzpr.ru
+# netname:        CCC-HC
+# descr:          Garant-Park-Telecom, Ltd.
+# origin:         AS41126
 89.111.176.0/20
 
-#российский союз правообладателей rp-union.ru:
+# российский союз правообладателей rp-union.ru:
 # старая подсеть: 184.82.0.0/16
-#inetnum:        109.73.0.0 - 109.73.15.255
-#netname:        RU-GARSTELECOM-20090925
-#descr:          GARS Telecom - Telecommunications Management LLC
+# netname:        RU-GARSTELECOM-20090925
+# descr:          GARS Telecom - Telecommunications Management LLC
+# origin:         AS31261
 109.73.0.0/22
 
-#Защита правообладателей copyright.ru:
-#inetnum:        194.85.88.0 - 194.85.89.255
-#netname:        RU-NIC-HOSTING
-#descr:          RU-NIC is a hosting and technical support organization.
-#country:        RU
-#route:          194.85.88.0/23
-#descr:          RU-NIC is a hosting and technical support organization
-#origin:         AS25535
-#mnt-routes:     RUNIC-MNT
-#mnt-by:         RUNIC-MNT
+# Защита правообладателей copyright.ru:
+# netname:        RU-NIC-HOSTING
+# descr:          RU-NIC is a hosting and technical support organization.
+# origin:         AS25535
 194.85.88.0/23
 
