@@ -352,30 +352,11 @@
 89.111.176.0/20
 
 #российский союз правообладателей rp-union.ru:
-#NetRange:       184.82.0.0 - 184.82.255.255
-#CIDR:           184.82.0.0/16
-#OriginAS:       AS21788
-#NetName:        HOSTNOC-8BLK
-#NetHandle:      NET-184-82-0-0-1
-#Parent:         NET-184-0-0-0-0
-#OrgName:        Network Operations Center Inc.
-#OrgId:          NOC
-#Address:        PO Box 591
-#City:           Scranton
-#StateProv:      PA
-#PostalCode:     18501-0591
-#Country:        US
-#network:ID:NET-184.82.8.48/29
-#network:Auth-Area:184.82.0.0/16
-#network:network:NET-184.82.8.48/29
-#network:block:184.82.8.48/29
-#network:organization;I:T0000006173
-#network:address:1205 Oneill Highway
-#network:city:Dunmore
-#network:state:PA
-#network:postalcode:18512
-#network:country:US
-184.82.0.0/16
+# старая подсеть: 184.82.0.0/16
+#inetnum:        109.73.0.0 - 109.73.15.255
+#netname:        RU-GARSTELECOM-20090925
+#descr:          GARS Telecom - Telecommunications Management LLC
+109.73.0.0/22
 
 #Защита правообладателей copyright.ru:
 #inetnum:        194.85.88.0 - 194.85.89.255
