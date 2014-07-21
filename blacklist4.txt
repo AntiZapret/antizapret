@@ -241,6 +241,14 @@
 46.47.211.0/24
 # Возможно, в 46.47.192.0/18 есть ещё "аффилированные" куски.
 
+# Единая Государственная система управления и передачи данных (ЕГСУПД)
+#inetnum: 195.230.66.0 - 195.230.66.255
+#netname: EGSUPD-NET
+#descr: Federal State Institution "United State System
+#descr: of Data Transfering Management"
+#descr: 19, Trubnikovsky per., 123995, Moscow, Russian Federation
+195.230.66.0/24
+
 
 ###############################################################################
 ##                           Прокремлёвские СМИ                              ##
