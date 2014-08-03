@@ -1,41 +1,232 @@
-Network for FGUP NTC "Informregistr":62.117.66.160-62.117.66.167
-SPEZSVYAZ Internal network, NK route block:78.108.192.0-78.108.199.255
-FGUP GNIVC FNS Russia, RTCOMM-RU:81.176.235.0-81.176.235.31
-WelL-COM ltd., 194017 Drezdenskaya 8/2, Saint-Petersburg, Russia:85.142.52.0-85.142.55.255
-Novosibirsk department of Atlas ISP, Novosibirsk department of Atlas ISP:91.190.236.0-91.190.239.255
-Nezavisimaya telekommunikacionnaya kompaniya Ltd., NTK Route Obj:91.224.182.0-91.224.183.255
-FGUP Goznak, Goznak Network for Public Service, Maintains all Goznak objects.:91.227.32.0-91.227.32.255
-State Science Centre VNIIGeosystem, State Science Centre VNIIGeosystem:91.236.22.0-91.236.23.255
-The Investigative Committee, at the Prosecutor's Office of, the Russian Federation, Tekhnicheskiy per., 2, Moscow, Russia, WestCall Ltd:92.39.133.160-92.39.133.175
-OOO "Telecom GKhK", ATOMLINK-AS:94.199.64.0-94.199.71.255
-The Federal Guard Service of the Russian Federation:95.173.128.0-95.173.159.255
-OJSC Rostelecom, Electronic government of the Russian Federation, Electronic-government:109.207.0.0-109.207.15.255
-FGUP NTC ATLAS, TELEDISCOUNT:178.237.206.0-178.237.206.255
-Federal State Unitary Enterprise of the Order of the Red Banner of Labour "Russian Broad-casting and Notification Network", Moscow City Radio Broadcasting Network:178.237.240.0-178.237.255.255
-Federal State-owned Enterprise Russian Television and Radio Broadcasting Network, route for RTTC-net:193.105.14.0-193.105.14.255
-Federal Unitary State Enterprise General Radio Freqency Centre, RU-GRFC-NET:194.165.22.0-194.165.23.255
-RUSSIAN STATE INTERNET NETWORK, Main Division of Informations Resources, for States organs of the Russian Federation, RGIN:194.226.80.0-194.226.95.255
-RUSSIAN STATE INTERNET NETWORK, Main Division of Informations Resources, for States organs of the Russian Federation, RSNET:194.226.116.0-194.226.119.255
-RUSSIAN STATE INTERNET NETWORK, Main Division of Informations Resources, for States organs of the Russian Federation, RUSSIAN STATE INTERNET NETWORK:194.226.127.0-194.226.127.255
-Research Centre for Computer Science at the Russian Foreign Ministry, Research Centre for Computer Science at the Russian Foreign Ministry:194.85.30.0-194.85.30.255
-Federal State Unitary Enterprise CenterInform, ATLAS-NW-NET:195.149.110.0-195.149.110.255
-RopNet, RopNet-Block1:212.42.32.0-212.42.63.255
-Federal Security Service of Russian Federation, 3/6 Lubyansky Proezd Moscow 103045, RTCOMM-RU:213.24.76.0-213.24.77.255
-Network Federal agency on education, 51, st. Lusinovskaya, Moscow, 115998, Russia, Network Federal agency on education:193.27.214.0-193.27.215.255
-Federal state unitary enterprise 'State Research Institute of Aviation Systems':193.47.146.0-193.47.146.255
-Federal State Unitary Enterprise "State, Scientific Network, Federal State Unitary Enterprise, "State Scientific-research Institute, of the Civil Aviation (Scientific Center, for maintenance of the flying fitness of airships)", SC MFFA (NCPLG VS), Scientific Network:194.150.202.0-194.150.203.255
-Federal State Unity Enterprise, All-Russian Electrotechnical Institute of V.I. Lenin, Federal State Unity Enterprise, All-Russian Electrotechnical Institute of V.I. Lenin:194.190.89.0-194.190.89.255
-State Science Centre VNIIGeosystem, State Science Centre VNIIGeosystem:194.226.22.0-194.226.23.255
-CJSC "Metrocom", 29 Odoevskogo Str., 199155, St.Petersburg,Russia:212.119.175.0-212.119.175.255
-ATS Smolnogo, St.Petersburg, JSC PeterStar:46.47.211.0-46.47.211.255
-Federal State Institution "United State System, of Data Transfering Management", 19, Trubnikovsky per., 123995, Moscow, Russian Federation:195.230.66.0-195.230.66.255
-Federal State Unitary Enterprise Russian State Television and Radio Broadcasting Company:80.247.32.0-80.247.47.255
-Russian Public Television, Moscow 127000, Russia, 19, Koroleva St.:195.230.68.0-195.230.68.255
-OJSC Televison Company NTV:195.3.240.0-195.3.243.255
-The Federal State Unitary Enterprise Russian Agency of the International Information RIA Novosti:195.93.246.0-195.93.247.255
-OOO News Media-Rus, www.life.ru:109.73.4.224-109.73.4.255
-Datalogika JSC, Agava CS:89.108.121.0-89.108.121.255
-Best-Hoster Group Co. Ltd., Best-Hoster Group Co. Ltd.:91.219.192.0-91.219.195.255
-Onlanta Ltd., ONLANTA-NET, RusComNet Ltd.:195.128.157.0-195.128.157.255
-Garant-Park-Telecom, Ltd., JSC Centrohost route:89.111.176.0-89.111.179.255
-GARS Telecom - Telecommunications Management LLC:109.73.0.0-109.73.15.255
+NTTs Informregistr:62.117.66.161-62.117.66.166
+FSKN, fskn.gov.ru:82.112.188.1-82.112.188.254
+rkn.gov.ru rsoc.ru:217.106.225.129-217.106.225.158
+eais.rkn.gov.ru nap.rkn.gov.ru:46.61.208.1-46.61.208.254
+398-fz.rkn.gov.ru:188.254.0.1-188.254.15.254
+Federal'naja Nalogovaja Sluzhba (FNS) nalog.ru:81.176.70.1-81.176.70.62
+Federal'naja Nalogovaja Sluzhba (FNS) nalog.ru:81.176.235.1-81.176.235.30
+Federal'naja Nalogovaja Sluzhba (FNS) nalog.ru:217.107.209.1-217.107.209.254
+Predpolozhitel'no osvobozhdennaja set' (FIXME!):85.142.52.1-85.142.52.254
+Predpolozhitel'no osvobozhdennaja set' (FIXME!):91.224.182.1-91.224.183.254
+Goznak:91.227.32.1-91.227.32.254
+Sledstvenyj komitet (SK RF):92.39.133.161-92.39.133.174
+sledcom.ru:95.173.144.1-95.173.159.254
+Zheleznogorskij GHK, staraja podset' SK RF:94.199.64.1-94.199.71.254
+Federal'naja Sluzhba Ohrany (FSO):95.173.128.1-95.173.159.254
+Elektronnoe pravitel'stvo (+ "Sputnik"):109.207.0.1-109.207.15.254
+QRATOR (? LBI, pravitel'stvo moskvy):178.248.232.1-178.248.239.254
+Moskovskaja Gorodskaja Radio-chastotnaja set' (RSVO):178.237.240.1-178.237.255.254
+Gos. radio-chastotnyj Tsentr (GRChTs):194.165.22.1-194.165.23.254
+RSNet (Osnovnaja set' dlja Gos.organov):194.226.80.1-194.226.95.254
+RSNet (Osnovnaja set' dlja Gos.organov):194.226.116.1-194.226.119.254
+RSNet (Osnovnaja set' dlja Gos.organov):194.226.127.1-194.226.127.254
+NTTs "Atlas" (NITsI pri MID):77.41.159.1-77.41.159.254
+NTTs "Atlas" (NITsI pri MID):194.85.30.1-194.85.30.254
+NTTs "Atlas" (TsentrInform):195.149.110.1-195.149.110.254
+NTTs "Atlas":178.237.206.1-178.237.206.254
+NTTs "Atlas" (Novosibirskij filial):91.190.236.1-91.190.239.254
+Moskovskaja prokuratura (mosproc.ru):212.42.32.1-212.42.63.254
+Federal'naja Sluzhba Bezopasnosti (FSB):213.24.76.1-213.24.77.254
+Ministerstvo obrazovanija (MinObrNauki):193.27.214.1-193.27.215.254
+GosNIIAS:193.47.146.1-193.47.146.254
+NIIGA:194.150.202.1-194.150.203.254
+VEI:194.190.89.1-194.190.89.254
+VNIIgeosistem:91.236.22.1-91.236.23.254
+VNIIgeosistem:194.226.22.1-194.226.23.254
+Sverdlovskaja oblastnaja duma:212.23.85.129-212.23.85.254
+Sverdlovskaja oblastnaja duma:212.23.73.5-212.23.73.6
+Ob'edinennaja redaktsija MVD:213.171.40.81-213.171.40.86
+Ekaterinburgskaja duma:195.58.0.213-195.58.0.214
+Ekaterinburgskaja duma:195.58.30.65-195.58.30.126
+Vologodskij FSKN:95.167.76.161-95.167.76.190
+Ministerstvo svjazi:213.243.88.1-213.243.88.254
+Ministerstvo svjazi:212.69.117.193-212.69.117.222
+Ministerstvo svjazi:195.230.86.65-195.230.86.126
+Kemerovskoe kaznachejstvo:91.198.38.1-91.198.38.254
+Altajskaja FNS:217.107.45.1-217.107.45.6
+Volgogradskaja FNS:217.106.203.73-217.106.203.78
+Bashkirskaja FNS:217.107.5.65-217.107.5.70
+Bashkirskaja FNS:217.107.5.1-217.107.5.6
+Juzhno-Sahalinskij FSKN:195.239.251.49-195.239.251.54
+Chuvashskaja FNS:217.106.150.81-217.106.150.86
+Moskovskaja oblastnaja duma:82.198.176.145-82.198.176.150
+Moskovskaja oblastnaja duma:82.198.176.17-82.198.176.22
+Cherkesskaja FNS:217.106.203.241-217.106.203.246
+Moskovskaja gorodskaja duma:212.11.130.1-212.11.131.254
+Moskovskaja gorodskaja duma:212.11.128.1-212.11.129.254
+Moskovskaja gorodskaja duma:87.245.157.241-87.245.157.246
+Moskovskaja gorodskaja duma:94.79.48.1-94.79.48.126
+Moskovskaja gorodskaja duma:77.108.103.145-77.108.103.150
+Tambovskaja duma:62.33.63.145-62.33.63.158
+Saratovskaja FNS:217.107.5.25-217.107.5.30
+MChS po Saratovskoj oblasti:217.23.88.249-217.23.88.254
+Ministerstvo justitsii:87.226.239.181-87.226.239.182
+Ministerstvo justitsii:87.226.156.65-87.226.156.126
+Kaliningradskaja oblastnaja duma:93.153.144.61-93.153.144.62
+Rublevo-Uspenskij LOK:91.239.228.1-91.239.229.254
+Medtsentr MChS:217.148.216.157-217.148.216.158
+Pskovskaja FNS:213.59.91.129-213.59.91.158
+Pskovskaja FNS:213.59.91.177-213.59.91.190
+Vologodskaja FNS:213.24.160.1-213.24.160.14
+FSKN po Amurskoj oblasti:95.167.157.157-95.167.157.158
+Permskaja duma:90.150.176.53-90.150.176.54
+Vladivostokskij MChS:77.35.98.241-77.35.98.254
+Vladivostokskij MChS:82.162.103.145-82.162.103.158
+Spetssvjaz' FSO RF:78.108.192.1-78.108.199.254
+Zelenogradskoe UI MChS:94.79.34.129-94.79.34.134
+Zelenogradskoe UI MChS:94.79.34.193-94.79.34.198
+Primorskij FSKN:95.167.68.217-95.167.68.222
+Primorskij FSKN:95.167.72.49-95.167.72.50
+Nizhegorodskaja FNS:213.177.111.1-213.177.111.254
+Nizhegorodskaja FNS:82.208.81.1-82.208.81.254
+Moskovskoe UI MChS (Ibragimova):94.79.34.209-94.79.34.214
+Moskovskoe UI MChS (Reutovskaja):94.79.34.201-94.79.34.206
+Moskovskoe UI MChS (Nelidovskaja):94.79.34.185-94.79.34.190
+Moskovskoe UI MChS (Tvardovskogo, 16):94.79.34.241-94.79.34.246
+Moskovskoe UI MChS (Fakel'nyj):94.79.35.249-94.79.35.254
+TsIK:194.226.97.1-194.226.97.254
+FSKN:95.167.59.245-95.167.59.246
+FSKN:95.167.59.249-95.167.59.250
+FSKN:92.50.198.73-92.50.198.74
+FSKN:193.164.232.129-193.164.232.158
+MID:194.85.152.25-194.85.152.26
+Novgorodskaja FNS:213.59.91.49-213.59.91.54
+Rostovskaja FNS:213.59.122.89-213.59.122.94
+FOMS:91.226.250.1-91.226.250.254
+Tatarstanskaja FNS:213.59.59.129-213.59.59.134
+Permskaja FNS:213.59.59.17-213.59.59.22
+Smolenskaja duma:94.25.90.241-94.25.90.246
+Smolenskaja duma:92.241.99.225-92.241.99.238
+Rosatom:88.151.200.1-88.151.207.254
+TsTSPI pri MID:80.73.16.1-80.73.31.254
+Tomskaja FNS:217.106.147.1-217.106.147.6
+Tsentr spetsial'noj svjazi i informatsii FSB v Permi:195.85.234.1-195.85.235.254
+Tsentr spetsial'noj svjazi i informatsii FSB v Permi:195.85.236.1-195.85.236.254
+Tsentr spetsial'noj svjazi i informatsii FSB v Permi:195.225.232.1-195.225.235.254
+MChS:77.72.137.97-77.72.137.126
+MChS:212.45.5.161-212.45.5.166
+MChS:92.39.106.169-92.39.106.170
+MChS:213.234.15.249-213.234.15.250
+GlavNIVTs upravlenija delami Prezidenta:46.29.152.1-46.29.159.254
+MVD:194.8.70.1-194.8.71.254
+Mordovskaja FNS:217.107.5.9-217.107.5.14
+Tsentral'naja poliklinika FSKN:62.117.121.249-62.117.121.254
+Tsentral'naja poliklinika FSKN:81.195.118.49-81.195.118.50
+Tsentral'naja poliklinika FSKN:212.100.159.121-212.100.159.126
+FAPRID:213.189.199.129-213.189.199.142
+Kirovskaja FNS:217.106.150.89-217.106.150.94
+Privolzhskaja FNS:217.106.150.73-217.106.150.78
+Kaznachejstvo Severnoj Osetii-Alanii:217.106.203.33-217.106.203.38
+Kaznachejstvo Severnoj Osetii-Alanii:217.106.93.193-217.106.93.254
+Rostovskij minfin:217.106.95.113-217.106.95.126
+Lipetskaja duma:195.34.233.33-195.34.233.38
+Permskij MChS:83.219.23.49-83.219.23.54
+Permskij MChS:83.219.5.249-83.219.5.254
+Permskij MChS:83.219.25.1-83.219.25.6
+Permskij MChS:90.150.176.189-90.150.176.190
+Permskij MChS:90.150.176.65-90.150.176.66
+FSK EES:195.66.72.1-195.66.72.254
+FSK EES:194.8.246.1-194.8.247.254
+Altajskij FSKN:95.167.162.237-95.167.162.238
+Voronezhskaja duma:195.98.73.57-195.98.73.62
+Karel'skaja FNS:217.106.115.169-217.106.115.174
+Habarovskij FSKN:95.167.116.189-95.167.116.190
+Habarovskij FSKN:188.128.98.205-188.128.98.206
+Chitinskij FSKN:94.25.70.65-94.25.70.66
+Hanty-Mansijskij FNS:217.20.86.233-217.20.86.238
+Hanty-Mansijskij FNS:217.20.86.241-217.20.86.254
+Tjumenskaja FNS:213.59.59.145-213.59.59.150
+Samarskaja FNS:217.107.5.41-217.107.5.46
+Ministerstvo kul'tury:194.190.9.1-194.190.9.254
+Spetsstroj FSB:195.42.75.9-195.42.75.14
+Samarskaja duma:46.20.70.161-46.20.70.174
+Magadanskaja duma:89.28.253.169-89.28.253.174
+Majkopskaja FNS:213.59.122.73-213.59.122.78
+Orenbugrskaja FNS:217.107.5.17-217.107.5.22
+Ministerstvo obrazovanija:82.179.86.33-82.179.86.62
+Ministerstvo finansov:195.80.224.1-195.80.224.254
+Barnaul'skij FSIN:81.1.236.193-81.1.236.222
+Barnaul'skij FSIN:81.1.237.177-81.1.237.182
+FKU UAT FSIN:82.138.54.73-82.138.54.78
+Sledstvennyj izoljator №3, Cherepovets:37.28.161.49-37.28.161.50
+Rospatent:195.208.85.193-195.208.85.254
+Permskij Rospotrebnadzor:212.120.184.57-212.120.184.62
+Permskij Rospotrebnadzor:212.120.190.241-212.120.190.246
+Permskij Rospotrebnadzor:212.120.191.249-212.120.191.254
+Permskij Rospotrebnadzor:212.120.191.121-212.120.191.126
+Permskij Rospotrebnadzor:83.219.6.73-83.219.6.78
+Permskij Rospotrebnadzor:83.219.25.113-83.219.25.118
+Permskij Rospotrebnadzor:90.150.189.217-90.150.189.222
+Permskij Rospotrebnadzor:212.120.189.225-212.120.189.230
+Permskij Rospotrebnadzor:90.150.189.169-90.150.189.174
+Permskij Rospotrebnadzor:90.150.189.225-90.150.189.230
+Permskij Rospotrebnadzor:90.150.189.209-90.150.189.214
+Permskij Rospotrebnadzor:90.150.189.161-90.150.189.166
+Permskij Rospotrebnadzor:90.150.189.185-90.150.189.190
+Permskij Rospotrebnadzor:90.150.189.249-90.150.189.254
+Permskij Rospotrebnadzor:90.150.189.201-90.150.189.206
+Permskij Rospotrebnadzor:90.150.189.145-90.150.189.150
+Permskij Rospotrebnadzor:90.150.189.193-90.150.189.198
+Permskij Rospotrebnadzor:90.150.189.129-90.150.189.134
+Permskij Rospotrebnadzor:90.150.189.153-90.150.189.158
+Permskij Rospotrebnadzor:90.150.189.137-90.150.189.142
+Permskij Rospotrebnadzor:90.150.189.177-90.150.189.182
+Permskij Rospotrebnadzor:90.150.189.233-90.150.189.238
+Kamensk-Shahtinskij Rospotrebnadzor:87.117.21.33-87.117.21.38
+Azovskij Rospotrebnadzor:87.117.21.9-87.117.21.14
+Rospotrebnadzor Belaja Kalitva:87.117.21.17-87.117.21.22
+Novocherkasskij Rospotrebnadzor:87.117.21.81-87.117.21.86
+Volgodonskij Rospotrebnadzor:87.117.21.1-87.117.21.6
+Rospotrebnadzor Orlovka:87.117.21.49-87.117.21.54
+Sal'skij Rospotrebnadzor:87.117.21.57-87.117.21.62
+Veshkinskij Rospotrebnadzor:87.117.21.73-87.117.21.78
+Millerovskij Rospotrebnadzor:87.117.21.41-87.117.21.46
+Tsimljanskij Rospotrebnadzor:87.117.21.25-87.117.21.30
+Shahtinskij Rospotrebnadzor:87.117.21.65-87.117.21.70
+Rostovskij Rospotrebnadzor:87.117.23.129-87.117.23.142
+Rostovskij Rospotrebnadzor:87.117.20.129-87.117.20.142
+Rostovskij Rospotrebnadzor:87.117.20.65-87.117.20.94
+Rostovskij Rospotrebnadzor:87.117.20.97-87.117.20.126
+Rostovskij Rospotrebnadzor:87.117.46.233-87.117.46.238
+Taganrogskij Rospotrebnadzor:87.117.18.145-87.117.18.150
+Taganrogskij Rospotrebnadzor:93.178.104.69-93.178.104.70
+Rjazanskij Rospotrebnadzor:95.167.4.169-95.167.4.174
+Rospotrebnadzor po ZhD:85.236.29.161-85.236.29.190
+Vladimirskij Rospotrebnadzor:84.53.210.145-84.53.210.158
+Taganrogskij Rospotrebnadzor:93.178.104.65-93.178.104.66
+Angarskij Rospotrebnadzor:213.234.8.9-213.234.8.10
+TsNIIE:89.175.8.69-89.175.8.70
+Kamchatskij Rospotrebnadzor:77.82.124.113-77.82.124.118
+Nizhegorodskij Rospotrebnadzor:89.109.7.177-89.109.7.182
+Rospotrebnadzor:213.234.11.5-213.234.11.6
+Rospotrebnadzor:217.149.182.121-217.149.182.122
+Rospotrebnadzor:188.247.40.61-188.247.40.62
+Rospotrebnadzor:188.247.36.161-188.247.36.166
+Rospotrebnadzor:92.39.107.61-92.39.107.62
+Primorskaja prokuratura:82.162.157.65-82.162.157.78
+Primorskaja prokuratura:86.102.100.49-86.102.100.62
+Primorskaja prokuratura:86.102.72.241-86.102.72.254
+Primorskaja prokuratura:77.35.76.81-77.35.76.94
+Primorskaja prokuratura:82.162.126.97-82.162.126.110
+Primorskaja prokuratura:82.162.80.193-82.162.80.206
+Primorskaja prokuratura:81.2.1.1-81.2.1.14
+Primorskaja prokuratura:82.162.72.209-82.162.72.222
+Dal'nevostochnaja prokuratura:85.114.93.89-85.114.93.94
+MMTP:178.209.115.249-178.209.115.254
+Ministerstvo Justitsii (MinJust), minjust.ru:87.245.163.1-87.245.163.126
+"Smol'nyj" (osnovnaja podset'):212.119.175.1-212.119.175.254
+"Smol'nyj" (zapasnaja podset'):46.47.211.1-46.47.211.254
+Edinaja Gosudarstvennaja sistema upravlenija i peredachi dannyh (EGSUPD):195.230.66.1-195.230.66.254
+VGTRK:80.247.32.1-80.247.47.254
+VGTRK:193.105.14.1-193.105.14.254
+ORT:195.230.68.1-195.230.68.254
+NTV:195.3.240.1-195.3.243.254
+RIA "NOVOSTI":195.93.246.1-195.93.247.254
+Life.RU:109.73.4.225-109.73.4.254
+Gibbd gibdd.ru, regional'nye Rospotrebnadzora 77.rospotrebnadzor.ru:89.108.112.1-89.108.127.254
+podrazdelenie K (kguvd.ru):91.219.192.1-91.219.195.254
+Rospotrebnadzor rospotrebnadzor.ru:195.128.157.1-195.128.157.254
+MVD (mvd.ru):213.232.192.1-213.232.255.254
+federatsija zaschity pravoobladatelej fzpr.ru:89.111.176.1-89.111.191.254
+rossijskij sojuz pravoobladatelej rp-union.ru:109.73.0.1-109.73.3.254
+Zaschita pravoobladatelej copyright.ru:194.85.88.1-194.85.89.254
