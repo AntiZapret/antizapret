@@ -106,6 +106,8 @@
 # descr: OJSC Rostelecom
 # descr: Electronic government of the Russian Federation
 109.207.0.0/20
+5.143.224.0/21
+95.167.189.0/25
 
 # name: QRATOR (? ЛБИ, правительство москвы)
 # netname: RU-QRATOR-20100512
