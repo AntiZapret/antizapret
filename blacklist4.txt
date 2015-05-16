@@ -31,13 +31,6 @@
 # (?) 46.61.128.0/17
 46.61.208.0/24
 
-# name: 398-fz.rkn.gov.ru
-# netname: BROADBAND_INTERNET_ACCESS
-# descr: BROADBAND INTERNET ACCESS FOR CUSTOMERS ROSTELECOM
-# origin: AS12389
-# (?) 188.254.0.0/17
-188.254.0.0/20
-
 # name: Федеральная Налоговая Служба (ФНС) nalog.ru
 # netname: RTCOMM-GNIVC
 # descr: Chief Scientific - Research Computing Center of the Federal
@@ -108,13 +101,6 @@
 109.207.0.0/20
 5.143.224.0/21
 95.167.189.0/25
-
-# name: QRATOR (? ЛБИ, правительство москвы)
-# netname: RU-QRATOR-20100512
-# descr: HLL LLC
-# remarks: QRATOR filtering network
-# origin: AS197068
-178.248.232.0/21
 
 # name: Московская Городская Радио-частотная сеть (РСВО)
 # netname: RU-MSRN-20100701
