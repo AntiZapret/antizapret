@@ -1,8 +1,7 @@
 NTTs Informregistr:62.117.66.161-62.117.66.166
 FSKN, fskn.gov.ru:82.112.188.1-82.112.188.254
 rkn.gov.ru rsoc.ru:217.106.225.129-217.106.225.158
-eais.rkn.gov.ru nap.rkn.gov.ru:46.61.208.1-46.61.208.254
-398-fz.rkn.gov.ru:188.254.0.1-188.254.15.254
+398-fz.rkn.gov.ru 97-fz.rkn.gov.ru eais.rkn.gov.ru nap.rkn.gov.ru:46.61.232.10-46.61.232.10
 Federal'naja Nalogovaja Sluzhba (FNS) nalog.ru:81.176.70.1-81.176.70.62
 Federal'naja Nalogovaja Sluzhba (FNS) nalog.ru:81.176.235.1-81.176.235.30
 Federal'naja Nalogovaja Sluzhba (FNS) nalog.ru:217.107.209.1-217.107.209.254
@@ -14,7 +13,6 @@ sledcom.ru:95.173.144.1-95.173.159.254
 Zheleznogorskij GHK, staraja podset' SK RF:94.199.64.1-94.199.71.254
 Federal'naja Sluzhba Ohrany (FSO):95.173.128.1-95.173.159.254
 Elektronnoe pravitel'stvo (+ "Sputnik"):109.207.0.1-109.207.15.254
-QRATOR (? LBI, pravitel'stvo moskvy):178.248.232.1-178.248.239.254
 Moskovskaja Gorodskaja Radio-chastotnaja set' (RSVO):178.237.240.1-178.237.255.254
 Gos. radio-chastotnyj Tsentr (GRChTs):194.165.22.1-194.165.23.254
 RSNet (Osnovnaja set' dlja Gos.organov):194.226.80.1-194.226.95.254

@@ -29,22 +29,12 @@
     }, 
     {
         "name": {
-            "ru": "eais.rkn.gov.ru nap.rkn.gov.ru", 
-            "trans": "eais.rkn.gov.ru nap.rkn.gov.ru"
+            "ru": "398-fz.rkn.gov.ru 97-fz.rkn.gov.ru eais.rkn.gov.ru nap.rkn.gov.ru", 
+            "trans": "398-fz.rkn.gov.ru 97-fz.rkn.gov.ru eais.rkn.gov.ru nap.rkn.gov.ru"
         }, 
         "ranges": [
             "# (?) 46.61.128.0/17", 
-            "46.61.208.0/24"
-        ]
-    }, 
-    {
-        "name": {
-            "ru": "398-fz.rkn.gov.ru", 
-            "trans": "398-fz.rkn.gov.ru"
-        }, 
-        "ranges": [
-            "# (?) 188.254.0.0/17", 
-            "188.254.0.0/20"
+            "46.61.232.10/32"
         ]
     }, 
     {
@@ -129,15 +119,6 @@
         }, 
         "ranges": [
             "109.207.0.0/20"
-        ]
-    }, 
-    {
-        "name": {
-            "ru": "QRATOR (? ЛБИ, правительство москвы)", 
-            "trans": "QRATOR (? LBI, pravitel'stvo moskvy)"
-        }, 
-        "ranges": [
-            "178.248.232.0/21"
         ]
     }, 
     {
