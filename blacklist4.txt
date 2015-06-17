@@ -24,7 +24,7 @@
 # (?) 217.106.0.0/16
 217.106.225.128/27
 
-# name: eais.rkn.gov.ru nap.rkn.gov.ru
+# name: 398-fz.rkn.gov.ru 97-fz.rkn.gov.ru eais.rkn.gov.ru nap.rkn.gov.ru
 # netname: MMT
 # descr: MMT NPROD CMS 11-27194
 # origin: AS12389
