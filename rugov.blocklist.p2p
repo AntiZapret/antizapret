@@ -225,6 +225,8 @@ Gibbd gibdd.ru, regional'nye Rospotrebnadzora 77.rospotrebnadzor.ru:89.108.112.1
 podrazdelenie K (kguvd.ru):91.219.192.1-91.219.195.254
 Rospotrebnadzor rospotrebnadzor.ru:195.128.157.1-195.128.157.254
 MVD (mvd.ru):213.232.192.1-213.232.255.254
+1whois.ru:77.37.208.110-77.37.208.110
+server referenced as "oldip" in DNS of 1whois:217.172.31.171-217.172.31.171
 federatsija zaschity pravoobladatelej fzpr.ru:89.111.176.1-89.111.191.254
 rossijskij sojuz pravoobladatelej rp-union.ru:109.73.0.1-109.73.3.254
 Zaschita pravoobladatelej copyright.ru:194.85.88.1-194.85.89.254

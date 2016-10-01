@@ -1407,6 +1407,24 @@
             "213.232.192.0/18"
         ]
     }, 
+	{
+        "name": {
+            "ru": "1whois.ru", 
+            "trans": "1whois.ru"
+        }, 
+        "ranges": [
+            "77.37.208.110/32"
+        ]
+    }, 
+	{
+        "name": {
+            "ru": "server referenced as oldip in DNS of 1whois", 
+            "trans": "server referenced as oldip in DNS of 1whois"
+        }, 
+        "ranges": [
+            "217.172.31.171/32"
+        ]
+    }, 
     {
         "name": {
             "ru": "федерация защиты правообладателей fzpr.ru", 
