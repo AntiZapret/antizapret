@@ -193,7 +193,8 @@
             "trans": "Moskovskaja prokuratura (mosproc.ru)"
         }, 
         "ranges": [
-            "212.42.32.0/19", 
+            "212.42.43.189",
+            "# ex: 212.42.32.0/19 # слишком широкий диапазон", 
             "# (?) Раз есть RopNet-Block1, должны быть и ropnet-blockN"
         ]
     }, 
