@@ -4,6 +4,12 @@
 ## некоторые могут иметь не столь очевидные признаки "причастности"          ##
 ###############################################################################
 
+# name: РосКомНадзор
+# netname: Roskomnadzor-net
+# descr: Client of JSC Rostelecom
+# origin: AS12389
+87.226.213.0/24
+
 # name: НТЦ Информрегистр
 # netname: COMCOR-FGUPNTCInformregistr
 # descr: Network for FGUP NTC "Informregistr"

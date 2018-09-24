@@ -1,6 +1,15 @@
 [
     {
         "name": {
+            "ru": "РосКомНадзор",
+            "trans": "RosComNadzor"
+        },
+        "ranges": [
+            "87.226.213.0/24"
+        ]
+    },
+    {
+        "name": {
             "ru": "НТЦ Информрегистр", 
             "trans": "NTTs Informregistr"
         }, 
